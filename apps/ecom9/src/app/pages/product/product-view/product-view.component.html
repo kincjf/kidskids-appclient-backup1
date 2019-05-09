@@ -1,0 +1,11 @@
+<xui-product [product]="product$ | async" [variants]="productVariants$ | async" [reviews]="reviews$ | async"
+  [reviewsLoading]="reviewsLoading$ | async" [inWishList]="inWishList$ | async" [currency]="currency$ | async"
+  (addCartItem)="add2Cart($event)" (addWishlistItem)="onAddWishlistItem($event)" (removeWishlistItem)="onRemoveWishlistItem($event)"
+  (select)="selectReview($event)"></xui-product>
+
+<div class="related">
+  <div class="title">
+    Other products you may like
+  </div>
+  <xui-product-list-hoz [products]="products$ | async" [currency]="currency$ | async" (select)="onSelectProduct($event)"></xui-product-list-hoz>
+</div>

@@ -1,0 +1,293 @@
+[{
+    "id": 1998,
+    "date_created": "2018-12-13T07:41:01",
+    "date_created_gmt": "2018-12-13T07:41:01",
+    "date_modified": "2018-12-13T07:41:05",
+    "date_modified_gmt": "2018-12-13T07:41:05",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/ribbed-jumper/?attribute_pa_color=dark-khaki-green",
+    "sku": "Ribbed-jumper-dark-khaki-green",
+    "price": "24.95",
+    "regular_price": "24.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1742,
+      "date_created": "2018-12-13T07:08:12",
+      "date_created_gmt": "2018-12-13T07:08:12",
+      "date_modified": "2018-12-13T07:08:12",
+      "date_modified_gmt": "2018-12-13T07:08:12",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ribbed-jumper-dark-khaki-green-01.jpeg",
+      "name": "ribbed-jumper-dark-khaki-green-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark Khaki Green"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64201,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994/variations/1998"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994"
+      }]
+    }
+  },
+  {
+    "id": 1997,
+    "date_created": "2018-12-13T07:41:01",
+    "date_created_gmt": "2018-12-13T07:41:01",
+    "date_modified": "2018-12-13T07:41:04",
+    "date_modified_gmt": "2018-12-13T07:41:04",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/ribbed-jumper/?attribute_pa_color=black",
+    "sku": "Ribbed-jumper-black",
+    "price": "24.95",
+    "regular_price": "24.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1738,
+      "date_created": "2018-12-13T07:08:00",
+      "date_created_gmt": "2018-12-13T07:08:00",
+      "date_modified": "2018-12-13T07:08:00",
+      "date_modified_gmt": "2018-12-13T07:08:00",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ribbed-jumper-black-01.jpeg",
+      "name": "ribbed-jumper-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64195,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994/variations/1997"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994"
+      }]
+    }
+  },
+  {
+    "id": 1996,
+    "date_created": "2018-12-13T07:41:01",
+    "date_created_gmt": "2018-12-13T07:41:01",
+    "date_modified": "2018-12-13T07:41:04",
+    "date_modified_gmt": "2018-12-13T07:41:04",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/ribbed-jumper/?attribute_pa_color=dark-blue-stripes",
+    "sku": "Ribbed-jumper-dark-blue-stripes",
+    "price": "24.95",
+    "regular_price": "24.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1734,
+      "date_created": "2018-12-13T07:07:56",
+      "date_created_gmt": "2018-12-13T07:07:56",
+      "date_modified": "2018-12-13T07:07:56",
+      "date_modified_gmt": "2018-12-13T07:07:56",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ribbed-jumper-dark-blue-stripes-01.jpeg",
+      "name": "ribbed-jumper-dark-blue-stripes-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark Blue/Stripes"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64189,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994/variations/1996"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994"
+      }]
+    }
+  },
+  {
+    "id": 1995,
+    "date_created": "2018-12-13T07:41:01",
+    "date_created_gmt": "2018-12-13T07:41:01",
+    "date_modified": "2018-12-13T07:41:04",
+    "date_modified_gmt": "2018-12-13T07:41:04",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/ribbed-jumper/?attribute_pa_color=light-grey-marl",
+    "sku": "Ribbed-jumper-light-grey-marl",
+    "price": "24.95",
+    "regular_price": "24.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1730,
+      "date_created": "2018-12-13T07:07:52",
+      "date_created_gmt": "2018-12-13T07:07:52",
+      "date_modified": "2018-12-13T07:07:52",
+      "date_modified_gmt": "2018-12-13T07:07:52",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ribbed-jumper-light-grey-marl-01.jpeg",
+      "name": "ribbed-jumper-light-grey-marl-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Light grey marl"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64183,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994/variations/1995"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1994"
+      }]
+    }
+  }
+]

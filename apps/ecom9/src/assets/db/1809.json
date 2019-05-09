@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1811,
+        "date_created": "2018-12-13T07:39:39",
+        "date_created_gmt": "2018-12-13T07:39:39",
+        "date_modified": "2018-12-13T07:39:43",
+        "date_modified_gmt": "2018-12-13T07:39:43",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/fluffy-jumper/?attribute_pa_color=nature-white",
+        "sku": "Fluffy-jumper-nature-white",
+        "price": "25",
+        "regular_price": "25",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 291,
+            "date_created": "2018-12-11T08:24:40",
+            "date_created_gmt": "2018-12-11T08:24:40",
+            "date_modified": "2018-12-11T08:24:40",
+            "date_modified_gmt": "2018-12-11T08:24:40",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/fluffy-jumper-nature-white-01.jpeg",
+            "name": "fluffy-jumper-nature-white-01",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Nature White"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56980,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1809/variations/1811"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1809/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1809"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1810,
+        "date_created": "2018-12-13T07:39:39",
+        "date_created_gmt": "2018-12-13T07:39:39",
+        "date_modified": "2018-12-13T07:39:43",
+        "date_modified_gmt": "2018-12-13T07:39:43",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/fluffy-jumper/?attribute_pa_color=black",
+        "sku": "Fluffy-jumper-black",
+        "price": "20",
+        "regular_price": "20",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 290,
+            "date_created": "2018-12-11T08:24:38",
+            "date_created_gmt": "2018-12-11T08:24:38",
+            "date_modified": "2018-12-11T08:24:38",
+            "date_modified_gmt": "2018-12-11T08:24:38",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/fluffy-jumper-black-01.jpeg",
+            "name": "fluffy-jumper-black-01",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Black"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56974,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1809/variations/1810"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1809/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1809"
+                }
+            ]
+        }
+    }
+]

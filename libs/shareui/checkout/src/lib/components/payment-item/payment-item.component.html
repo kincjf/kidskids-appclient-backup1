@@ -1,0 +1,8 @@
+<ion-item *ngIf="payment.enabled">
+  <ion-icon slot="start" name="card"></ion-icon>
+  <ion-label>
+    <h3>{{payment.method_title}}</h3>
+    <p>{{payment.method_description}}</p>
+  </ion-label>
+  <ion-radio slot="end" [value]="payment.id" checked></ion-radio>
+</ion-item>

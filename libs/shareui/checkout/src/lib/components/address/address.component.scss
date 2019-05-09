@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: Ubuntu-Regular;
+  --ion-item-border-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  .no-choose {
+      color: var(--ion-color-danger);
+  }
+}

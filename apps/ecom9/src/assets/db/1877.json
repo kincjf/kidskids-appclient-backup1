@@ -1,0 +1,220 @@
+[{
+    "id": 1880,
+    "date_created": "2018-12-13T07:40:06",
+    "date_created_gmt": "2018-12-13T07:40:06",
+    "date_modified": "2018-12-13T07:40:10",
+    "date_modified_gmt": "2018-12-13T07:40:10",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-top-regular-fit/?attribute_pa_color=black",
+    "sku": "Long-sleeved-top-regular-fit-black",
+    "price": "12.5",
+    "regular_price": "12.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 806,
+      "date_created": "2018-12-12T06:37:18",
+      "date_created_gmt": "2018-12-12T06:37:18",
+      "date_modified": "2018-12-12T06:37:18",
+      "date_modified_gmt": "2018-12-12T06:37:18",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-top-regular-fit-black-01.jpeg",
+      "name": "long-sleeved-top-regular-fit-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 59502,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877/variations/1880"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877"
+      }]
+    }
+  },
+  {
+    "id": 1879,
+    "date_created": "2018-12-13T07:40:06",
+    "date_created_gmt": "2018-12-13T07:40:06",
+    "date_modified": "2018-12-13T07:40:10",
+    "date_modified_gmt": "2018-12-13T07:40:10",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-top-regular-fit/?attribute_pa_color=khaki-green-narrow-striped",
+    "sku": "Long-sleeved-top-regular-fit-khaki-green-narrow-striped",
+    "price": "12.5",
+    "regular_price": "12.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "outofstock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 805,
+      "date_created": "2018-12-12T06:37:17",
+      "date_created_gmt": "2018-12-12T06:37:17",
+      "date_modified": "2018-12-12T06:37:17",
+      "date_modified_gmt": "2018-12-12T06:37:17",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-top-regular-fit-khaki-green-narrow-striped-01.jpeg",
+      "name": "long-sleeved-top-regular-fit-khaki-green-narrow-striped-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Khaki green/Narrow striped"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 59496,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877/variations/1879"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877"
+      }]
+    }
+  },
+  {
+    "id": 1878,
+    "date_created": "2018-12-13T07:40:06",
+    "date_created_gmt": "2018-12-13T07:40:06",
+    "date_modified": "2018-12-13T07:40:10",
+    "date_modified_gmt": "2018-12-13T07:40:10",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-top-regular-fit/?attribute_pa_color=white",
+    "sku": "Long-sleeved-top-regular-fit-white",
+    "price": "12.5",
+    "regular_price": "12.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 810,
+      "date_created": "2018-12-12T06:37:21",
+      "date_created_gmt": "2018-12-12T06:37:21",
+      "date_modified": "2018-12-12T06:37:21",
+      "date_modified_gmt": "2018-12-12T06:37:21",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-top-regular-fit-white-01.jpeg",
+      "name": "long-sleeved-top-regular-fit-white-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 59490,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877/variations/1878"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1877"
+      }]
+    }
+  }
+]

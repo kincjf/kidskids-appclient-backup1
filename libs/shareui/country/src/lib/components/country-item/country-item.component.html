@@ -1,0 +1,6 @@
+<ion-item *ngIf="country" button (click)="selectCountry()">
+  <ion-label>
+    <h3 [innerHTML]="country.name"></h3>
+  </ion-label>
+  <p slot="end">({{country.code}})</p>
+</ion-item>

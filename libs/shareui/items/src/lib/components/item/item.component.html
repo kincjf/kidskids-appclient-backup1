@@ -1,0 +1,27 @@
+<ion-item-sliding *ngIf="product">
+  <ion-item>
+    <ion-thumbnail slot="start" (click)="goItem()">
+      <img *ngIf="product.images" [src]="getImage(product.images[0].src)">
+    </ion-thumbnail>
+    <ion-label>
+      <h3 (click)="goItem()">{{product.name}}</h3>
+      <p (click)="goItem()" *ngIf="product.type !== 'simple'">Color: {{product.color}}</p>
+      <p><span *ngIf="!lockQuantity">Quantity: {{product.quantity}} - </span> Price: <span *ngIf="currency" [innerHTML]="currency.symbol"></span>&nbsp;{{product.price | number: '1.0-2'}}</p>
+    </ion-label>
+    <div *ngIf="!lockQuantity" slot="end" class="quantity-wrapper">
+      <ion-button fill="clear" (click)="dec()" [disabled]="product.quantity === 1">
+        <ion-icon slot="icon-only" name="remove"></ion-icon>
+      </ion-button>
+      <div class="number">{{product.quantity}}</div>
+      <ion-button fill="clear" (click)="inc()">
+        <ion-icon slot="icon-only" name="add"></ion-icon>
+      </ion-button>
+    </div>
+  </ion-item>
+
+  <ion-item-options *ngIf="!lockRemove" side="end">
+    <ion-item-option expandable color="danger" (click)="remove()">
+      <ion-icon name="trash"></ion-icon> Remove
+    </ion-item-option>
+  </ion-item-options>
+</ion-item-sliding>

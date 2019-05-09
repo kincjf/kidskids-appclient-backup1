@@ -1,0 +1,19 @@
+<ion-header no-border>
+  <ion-toolbar mode="md">
+    <ion-title>
+      <img class="menu-logo" src="../../../assets/imgs/small-top-logo.png">
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button class="skip-button" (click)="skip()">
+        Skip
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <xui-login-form (submitted)="signin($event)" (forgotPassword)="forgot()" (register)="signup()"></xui-login-form>
+</ion-content>
+<ion-footer>
+  <xui-social [enableTwitter]="true" (facebook)="onFacebook()" (twitter)="onTwitter()" (google)="onGoogle()"></xui-social>
+</ion-footer>

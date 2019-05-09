@@ -1,0 +1,72 @@
+.logo {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 30px;
+  }
+}
+
+.forgot-form {
+  width: 100%;
+  padding: 20px 5px 0px 5px;
+  margin-bottom: 0 !important;
+
+  .item {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    --ion-item-border-color: transparent;
+    --padding-start: 0;
+    --inner-padding-end: 0;
+    --ion-item-border-color: var(--ion-color-medium-tint);
+    --highlight-color-focused: var(--ion-color-primary);
+    --highlight-color-invalid: var(--ion-color-danger);
+
+    ion-button {
+      margin: 0 0;
+      padding: 0 0;
+      margin-top: 34px;
+
+      ion-icon {
+        font-size: 21px;
+      }
+    }
+  }
+
+  .item-inner {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+.forgot-password {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+
+  ion-button {
+    font-size: 0.88rem;
+    margin-right: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+  }
+}
+
+.actions {
+  ion-button {
+    margin-top: 20px;
+    font-family: Ubuntu-Regular;
+  }
+
+  .no-account {
+    text-transform: none;
+  }
+}

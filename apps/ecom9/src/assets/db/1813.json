@@ -1,0 +1,293 @@
+[{
+    "id": 1817,
+    "date_created": "2018-12-13T07:39:40",
+    "date_created_gmt": "2018-12-13T07:39:40",
+    "date_modified": "2018-12-13T07:39:44",
+    "date_modified_gmt": "2018-12-13T07:39:44",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/ribbed-top/?attribute_pa_color=dark-red",
+    "sku": "Ribbed-top-dark-red",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 284,
+      "date_created": "2018-12-11T08:24:26",
+      "date_created_gmt": "2018-12-11T08:24:26",
+      "date_modified": "2018-12-11T08:24:26",
+      "date_modified_gmt": "2018-12-11T08:24:26",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ribbed-top-dark-red-01.jpeg",
+      "name": "ribbed-top-dark-red-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark Red"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 57014,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813/variations/1817"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813"
+      }]
+    }
+  },
+  {
+    "id": 1816,
+    "date_created": "2018-12-13T07:39:40",
+    "date_created_gmt": "2018-12-13T07:39:40",
+    "date_modified": "2018-12-13T07:39:44",
+    "date_modified_gmt": "2018-12-13T07:39:44",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/ribbed-top/?attribute_pa_color=white",
+    "sku": "Ribbed-top-white",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 287,
+      "date_created": "2018-12-11T08:24:32",
+      "date_created_gmt": "2018-12-11T08:24:32",
+      "date_modified": "2018-12-11T08:24:32",
+      "date_modified_gmt": "2018-12-11T08:24:32",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ribbed-top-white-01.jpeg",
+      "name": "ribbed-top-white-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 57008,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813/variations/1816"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813"
+      }]
+    }
+  },
+  {
+    "id": 1815,
+    "date_created": "2018-12-13T07:39:40",
+    "date_created_gmt": "2018-12-13T07:39:40",
+    "date_modified": "2018-12-13T07:39:44",
+    "date_modified_gmt": "2018-12-13T07:39:44",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/ribbed-top/?attribute_pa_color=black",
+    "sku": "Ribbed-top-black",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 288,
+      "date_created": "2018-12-11T08:24:34",
+      "date_created_gmt": "2018-12-11T08:24:34",
+      "date_modified": "2018-12-11T08:24:34",
+      "date_modified_gmt": "2018-12-11T08:24:34",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ribbed-top-black.jpeg",
+      "name": "ribbed-top-black",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 57002,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813/variations/1815"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813"
+      }]
+    }
+  },
+  {
+    "id": 1814,
+    "date_created": "2018-12-13T07:39:40",
+    "date_created_gmt": "2018-12-13T07:39:40",
+    "date_modified": "2018-12-13T07:39:43",
+    "date_modified_gmt": "2018-12-13T07:39:43",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/ribbed-top/?attribute_pa_color=mustard-yellow",
+    "sku": "Ribbed-top-mustard-yellow",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 283,
+      "date_created": "2018-12-11T08:24:24",
+      "date_created_gmt": "2018-12-11T08:24:24",
+      "date_modified": "2018-12-11T08:24:24",
+      "date_modified_gmt": "2018-12-11T08:24:24",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ribbed-top-mustard-yellow-01.jpeg",
+      "name": "ribbed-top-mustard-yellow-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Mustard Yellow"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 56996,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813/variations/1814"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1813"
+      }]
+    }
+  }
+]

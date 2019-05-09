@@ -1,0 +1,22 @@
+{
+  "name": "ecom9-utils",
+  "version": "1.0.0",
+  "author": "quanganh@aiti.com.vn",
+  "homepage": "https://xmobe.com",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "google-libphonenumber": "^3.1.15"
+  },
+  "devDependencies": {
+    "@types/google-libphonenumber": "^7.4.17"
+  },
+  "description": "xMobe Share UI"
+}

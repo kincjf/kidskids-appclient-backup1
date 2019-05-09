@@ -1,0 +1,16 @@
+ion-list {
+  margin-bottom: 10px;
+  width: 100%;
+  border-bottom: 1px solid var(--ion-color-light);
+}
+
+.not-login {
+  margin-top: 10vh;
+  width: 100vw;
+  min-height: 15vh;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

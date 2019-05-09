@@ -1,0 +1,30 @@
+<div *ngIf="reviews.length > 0" class="summary-wrapper">
+  <div class="title">
+    Ratings & Reviews
+  </div>
+  <div class="row">
+    <div class="left">
+      <div class="number">{{Rate | number: '1.1-2'}}</div>
+      <ion-icon name="star" color="secondary"></ion-icon>
+    </div>
+    <div class="right">
+      <div *ngFor="let rate of rates" class="progress-wrapper">
+        <div class="progress-title">
+          <div class="number">{{rate.id}}</div>
+          <ion-icon name="star" color="secondary"></ion-icon>
+        </div>
+        <div class="progress-bar">
+          <div class="progress" [style.width]="getPercent(rate)"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div *ngIf="reviews.length === 1" class="total">
+      <span>{{reviews.length}}</span>Rating and Review
+    </div>
+    <div *ngIf="reviews.length > 1" class="total">
+      <span>{{reviews.length}}</span>Ratings and Reviews
+    </div>
+  </div>
+</div>

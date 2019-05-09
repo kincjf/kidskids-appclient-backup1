@@ -1,0 +1,220 @@
+[{
+    "id": 1906,
+    "date_created": "2018-12-13T07:40:23",
+    "date_created_gmt": "2018-12-13T07:40:23",
+    "date_modified": "2018-12-13T07:40:27",
+    "date_modified_gmt": "2018-12-13T07:40:27",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/jacket-skinny-fit/?attribute_pa_color=dark-blue",
+    "sku": "Jacket-skinny-fit-dark-blue",
+    "price": "86",
+    "regular_price": "86",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 727,
+      "date_created": "2018-12-12T06:35:21",
+      "date_created_gmt": "2018-12-12T06:35:21",
+      "date_modified": "2018-12-12T06:35:21",
+      "date_modified_gmt": "2018-12-12T06:35:21",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jacket-skinny-fit-dark-blue-01.jpeg",
+      "name": "jacket-skinny-fit-dark-blue-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark blue"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60714,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903/variations/1906"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903"
+      }]
+    }
+  },
+  {
+    "id": 1905,
+    "date_created": "2018-12-13T07:40:23",
+    "date_created_gmt": "2018-12-13T07:40:23",
+    "date_modified": "2018-12-13T07:40:27",
+    "date_modified_gmt": "2018-12-13T07:40:27",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/jacket-skinny-fit/?attribute_pa_color=grey-marl",
+    "sku": "Jacket-skinny-fit-grey-marl",
+    "price": "86",
+    "regular_price": "86",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 716,
+      "date_created": "2018-12-12T06:35:02",
+      "date_created_gmt": "2018-12-12T06:35:02",
+      "date_modified": "2018-12-12T06:35:02",
+      "date_modified_gmt": "2018-12-12T06:35:02",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jacket-skinny-fit-grey-marl-01.jpeg",
+      "name": "jacket-skinny-fit-grey-marl-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Grey marl"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60708,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903/variations/1905"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903"
+      }]
+    }
+  },
+  {
+    "id": 1904,
+    "date_created": "2018-12-13T07:40:23",
+    "date_created_gmt": "2018-12-13T07:40:23",
+    "date_modified": "2018-12-13T07:40:27",
+    "date_modified_gmt": "2018-12-13T07:40:27",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/jacket-skinny-fit/?attribute_pa_color=black",
+    "sku": "Jacket-skinny-fit-black",
+    "price": "86",
+    "regular_price": "86",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 722,
+      "date_created": "2018-12-12T06:35:12",
+      "date_created_gmt": "2018-12-12T06:35:12",
+      "date_modified": "2018-12-12T06:35:12",
+      "date_modified_gmt": "2018-12-12T06:35:12",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jacket-skinny-fit-black-01.jpeg",
+      "name": "jacket-skinny-fit-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60702,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903/variations/1904"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1903"
+      }]
+    }
+  }
+]

@@ -1,0 +1,10 @@
+<ion-list #slidingList>
+  <xui-item *ngFor="let product of products" [product]="product" [currency]="currency" [lockQuantity]="lockQuantity" [lockRemove]="lockRemove" (clickItem)="goItem($event)"
+    (delete)="onDelete($event)" (increment)="onIncrement($event)" (decrement)="onDecrement($event)"></xui-item>
+</ion-list>
+
+<div *ngIf="products">
+  <div *ngIf="products.length === 0" class="no-product">
+    <span>No items here</span>
+  </div>
+</div>

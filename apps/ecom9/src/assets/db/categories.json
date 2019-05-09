@@ -1,0 +1,602 @@
+[
+  {
+      "id": 15,
+      "name": "Uncategorized",
+      "slug": "uncategorized",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 0,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/15"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ]
+      }
+  },
+  {
+      "id": 117,
+      "name": "악세사리",
+      "slug": "accessories",
+      "parent": 114,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 2003,
+          "date_created": "2018-12-17T08:47:46",
+          "date_created_gmt": "2018-12-17T08:47:46",
+          "date_modified": "2018-12-17T08:47:46",
+          "date_modified_gmt": "2018-12-17T08:47:46",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/ads01.png",
+          "name": "ads01",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 8,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/117"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/114"
+              }
+          ]
+      }
+  },
+  {
+      "id": 127,
+      "name": "Baby Boys",
+      "slug": "baby-boys",
+      "parent": 125,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 1010,
+          "date_created": "2018-12-12T08:25:19",
+          "date_created_gmt": "2018-12-12T08:25:19",
+          "date_modified": "2018-12-12T08:25:19",
+          "date_modified_gmt": "2018-12-12T08:25:19",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/4-piece-set-01.jpeg",
+          "name": "4-piece-set-01",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 4,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/127"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/125"
+              }
+          ]
+      }
+  },
+  {
+      "id": 126,
+      "name": "Baby Girls",
+      "slug": "baby-girls",
+      "parent": 125,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 1018,
+          "date_created": "2018-12-12T08:25:36",
+          "date_created_gmt": "2018-12-12T08:25:36",
+          "date_modified": "2018-12-12T08:25:36",
+          "date_modified_gmt": "2018-12-12T08:25:36",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/warm-lined-boots-01.jpeg",
+          "name": "warm-lined-boots-01",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 4,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/126"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/125"
+              }
+          ]
+      }
+  },
+  {
+      "id": 116,
+      "name": "Bags",
+      "slug": "bags",
+      "parent": 114,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 428,
+          "date_created": "2018-12-11T13:53:54",
+          "date_created_gmt": "2018-12-11T13:53:54",
+          "date_modified": "2018-12-11T13:53:54",
+          "date_modified_gmt": "2018-12-11T13:53:54",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/small-shoulder-bag-02.jpeg",
+          "name": "small-shoulder-bag-02",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 8,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/116"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/114"
+              }
+          ]
+      }
+  },
+  {
+      "id": 121,
+      "name": "Blazer &amp; Suits",
+      "slug": "blazer-suits",
+      "parent": 119,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 2019,
+          "date_created": "2018-12-17T08:48:27",
+          "date_created_gmt": "2018-12-17T08:48:27",
+          "date_modified": "2018-12-17T08:48:27",
+          "date_modified_gmt": "2018-12-17T08:48:27",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/men05.png",
+          "name": "men05",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 6,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/121"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/119"
+              }
+          ]
+      }
+  },
+  {
+      "id": 129,
+      "name": "Boys",
+      "slug": "boys",
+      "parent": 125,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 1759,
+          "date_created": "2018-12-13T07:08:48",
+          "date_created_gmt": "2018-12-13T07:08:48",
+          "date_modified": "2018-12-13T07:08:48",
+          "date_modified_gmt": "2018-12-13T07:08:48",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/shirt-with-a-tie-bow-tie-white-bow-tie-01.jpeg",
+          "name": "shirt-with-a-tie-bow-tie-white-bow-tie-01",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 8,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/129"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/125"
+              }
+          ]
+      }
+  },
+  {
+      "id": 128,
+      "name": "Girls",
+      "slug": "girls",
+      "parent": 125,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 2011,
+          "date_created": "2018-12-17T08:48:08",
+          "date_created_gmt": "2018-12-17T08:48:08",
+          "date_modified": "2018-12-17T08:48:08",
+          "date_modified_gmt": "2018-12-17T08:48:08",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/kids03.png",
+          "name": "kids03",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 8,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/128"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/125"
+              }
+          ]
+      }
+  },
+  {
+      "id": 122,
+      "name": "Jeans",
+      "slug": "jeans",
+      "parent": 119,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 685,
+          "date_created": "2018-12-12T06:33:01",
+          "date_created_gmt": "2018-12-12T06:33:01",
+          "date_modified": "2018-12-12T06:33:01",
+          "date_modified_gmt": "2018-12-12T06:33:01",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/skinny-jeans-dark-denim-blue-04.jpeg",
+          "name": "skinny-jeans-dark-denim-blue-04",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 4,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/122"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/119"
+              }
+          ]
+      }
+  },
+  {
+      "id": 125,
+      "name": "Kids",
+      "slug": "kids",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 2012,
+          "date_created": "2018-12-17T08:48:09",
+          "date_created_gmt": "2018-12-17T08:48:09",
+          "date_modified": "2018-12-17T08:48:09",
+          "date_modified_gmt": "2018-12-17T08:48:09",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/kids04.png",
+          "name": "kids04",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 24,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/125"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ]
+      }
+  },
+  {
+      "id": 119,
+      "name": "Men's Wear",
+      "slug": "mens-wear",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 2015,
+          "date_created": "2018-12-17T08:48:25",
+          "date_created_gmt": "2018-12-17T08:48:25",
+          "date_modified": "2018-12-17T08:48:25",
+          "date_modified_gmt": "2018-12-17T08:48:25",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/men01.png",
+          "name": "men01",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 26,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/119"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ]
+      }
+  },
+  {
+      "id": 118,
+      "name": "Nightwear",
+      "slug": "nightwear",
+      "parent": 114,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 2025,
+          "date_created": "2018-12-17T08:48:31",
+          "date_created_gmt": "2018-12-17T08:48:31",
+          "date_modified": "2018-12-17T08:48:31",
+          "date_modified_gmt": "2018-12-17T08:48:31",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/women05.png",
+          "name": "women05",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 8,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/118"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/114"
+              }
+          ]
+      }
+  },
+  {
+      "id": 124,
+      "name": "Shoes",
+      "slug": "shoes",
+      "parent": 119,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 620,
+          "date_created": "2018-12-12T06:29:44",
+          "date_created_gmt": "2018-12-12T06:29:44",
+          "date_modified": "2018-12-12T06:29:44",
+          "date_modified_gmt": "2018-12-12T06:29:44",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/boots-ochre-02.jpeg",
+          "name": "boots-ochre-02",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 4,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/124"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/119"
+              }
+          ]
+      }
+  },
+  {
+      "id": 120,
+      "name": "T-Shirt &amp; Tanktops",
+      "slug": "t-shirt-tanktops",
+      "parent": 119,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 769,
+          "date_created": "2018-12-12T06:36:30",
+          "date_created_gmt": "2018-12-12T06:36:30",
+          "date_modified": "2018-12-12T06:36:30",
+          "date_modified_gmt": "2018-12-12T06:36:30",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/t-shirt-with-embroidery-white-01.jpeg",
+          "name": "t-shirt-with-embroidery-white-01",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 8,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/120"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/119"
+              }
+          ]
+      }
+  },
+  {
+      "id": 123,
+      "name": "Underwear &amp; Loungewear",
+      "slug": "underwear-loungewear",
+      "parent": 119,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 630,
+          "date_created": "2018-12-12T06:30:00",
+          "date_created_gmt": "2018-12-12T06:30:00",
+          "date_modified": "2018-12-12T06:30:00",
+          "date_modified_gmt": "2018-12-12T06:30:00",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/3-pack-short-trunks-dark-blue-light-grey-04.jpeg",
+          "name": "3-pack-short-trunks-dark-blue-light-grey-04",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 4,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/123"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/119"
+              }
+          ]
+      }
+  },
+  {
+      "id": 115,
+      "name": "Western wear",
+      "slug": "western-wear",
+      "parent": 114,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 2024,
+          "date_created": "2018-12-17T08:48:30",
+          "date_created_gmt": "2018-12-17T08:48:30",
+          "date_modified": "2018-12-17T08:48:30",
+          "date_modified_gmt": "2018-12-17T08:48:30",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/women04.png",
+          "name": "women04",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 12,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/115"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ],
+          "up": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/114"
+              }
+          ]
+      }
+  },
+  {
+      "id": 114,
+      "name": "Women's Wear",
+      "slug": "womens-wear",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+          "id": 2023,
+          "date_created": "2018-12-17T08:48:30",
+          "date_created_gmt": "2018-12-17T08:48:30",
+          "date_modified": "2018-12-17T08:48:30",
+          "date_modified_gmt": "2018-12-17T08:48:30",
+          "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/women03.png",
+          "name": "women03",
+          "alt": ""
+      },
+      "menu_order": 0,
+      "count": 36,
+      "_links": {
+          "self": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories/114"
+              }
+          ],
+          "collection": [
+              {
+                  "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/categories"
+              }
+          ]
+      }
+  }
+]

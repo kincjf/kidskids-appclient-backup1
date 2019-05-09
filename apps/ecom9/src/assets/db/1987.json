@@ -1,0 +1,439 @@
+[{
+    "id": 1993,
+    "date_created": "2018-12-13T07:41:00",
+    "date_created_gmt": "2018-12-13T07:41:00",
+    "date_modified": "2018-12-13T07:41:04",
+    "date_modified_gmt": "2018-12-13T07:41:04",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/shirt-with-a-tie-bow-tie/?attribute_pa_color=white-bow-tie",
+    "sku": "Shirt-with-a-tie-bow-tie-white-bow-tie",
+    "price": "29.95",
+    "regular_price": "29.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1759,
+      "date_created": "2018-12-13T07:08:48",
+      "date_created_gmt": "2018-12-13T07:08:48",
+      "date_modified": "2018-12-13T07:08:48",
+      "date_modified_gmt": "2018-12-13T07:08:48",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/shirt-with-a-tie-bow-tie-white-bow-tie-01.jpeg",
+      "name": "shirt-with-a-tie-bow-tie-white-bow-tie-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White/Bow Tie"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64172,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations/1993"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987"
+      }]
+    }
+  },
+  {
+    "id": 1992,
+    "date_created": "2018-12-13T07:41:00",
+    "date_created_gmt": "2018-12-13T07:41:00",
+    "date_modified": "2018-12-13T07:41:04",
+    "date_modified_gmt": "2018-12-13T07:41:04",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/shirt-with-a-tie-bow-tie/?attribute_pa_color=black-tie-with-notes",
+    "sku": "Shirt-with-a-tie-bow-tie-black-tie-with-notes",
+    "price": "29.95",
+    "regular_price": "29.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1757,
+      "date_created": "2018-12-13T07:08:46",
+      "date_created_gmt": "2018-12-13T07:08:46",
+      "date_modified": "2018-12-13T07:08:46",
+      "date_modified_gmt": "2018-12-13T07:08:46",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/shirt-with-a-tie-bow-tie-black-tie-with-notes-01.jpeg",
+      "name": "shirt-with-a-tie-bow-tie-black-tie-with-notes-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black/Tie with Notes"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64166,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations/1992"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987"
+      }]
+    }
+  },
+  {
+    "id": 1991,
+    "date_created": "2018-12-13T07:41:00",
+    "date_created_gmt": "2018-12-13T07:41:00",
+    "date_modified": "2018-12-13T07:41:04",
+    "date_modified_gmt": "2018-12-13T07:41:04",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/shirt-with-a-tie-bow-tie/?attribute_pa_color=striped-bow-tie",
+    "sku": "Shirt-with-a-tie-bow-tie-striped-bow-tie",
+    "price": "29.95",
+    "regular_price": "29.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1754,
+      "date_created": "2018-12-13T07:08:36",
+      "date_created_gmt": "2018-12-13T07:08:36",
+      "date_modified": "2018-12-13T07:08:36",
+      "date_modified_gmt": "2018-12-13T07:08:36",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/shirt-with-a-tie-bow-tie-striped-bow-tie-01.jpeg",
+      "name": "shirt-with-a-tie-bow-tie-striped-bow-tie-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Striped/Bow Tie"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64160,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations/1991"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987"
+      }]
+    }
+  },
+  {
+    "id": 1990,
+    "date_created": "2018-12-13T07:41:00",
+    "date_created_gmt": "2018-12-13T07:41:00",
+    "date_modified": "2018-12-13T07:41:04",
+    "date_modified_gmt": "2018-12-13T07:41:04",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/shirt-with-a-tie-bow-tie/?attribute_pa_color=white-tie",
+    "sku": "Shirt-with-a-tie-bow-tie-white-tie",
+    "price": "29.95",
+    "regular_price": "29.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1744,
+      "date_created": "2018-12-13T07:08:14",
+      "date_created_gmt": "2018-12-13T07:08:14",
+      "date_modified": "2018-12-13T07:08:14",
+      "date_modified_gmt": "2018-12-13T07:08:14",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/shirt-with-a-tie-bow-tie-white-tie-01.jpeg",
+      "name": "shirt-with-a-tie-bow-tie-white-tie-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White/Tie"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64154,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations/1990"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987"
+      }]
+    }
+  },
+  {
+    "id": 1989,
+    "date_created": "2018-12-13T07:41:00",
+    "date_created_gmt": "2018-12-13T07:41:00",
+    "date_modified": "2018-12-13T07:41:03",
+    "date_modified_gmt": "2018-12-13T07:41:03",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/shirt-with-a-tie-bow-tie/?attribute_pa_color=red-tie",
+    "sku": "Shirt-with-a-tie-bow-tie-red-tie",
+    "price": "29.95",
+    "regular_price": "29.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1746,
+      "date_created": "2018-12-13T07:08:16",
+      "date_created_gmt": "2018-12-13T07:08:16",
+      "date_modified": "2018-12-13T07:08:16",
+      "date_modified_gmt": "2018-12-13T07:08:16",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/shirt-with-a-tie-bow-tie-red-tie-01.jpeg",
+      "name": "shirt-with-a-tie-bow-tie-red-tie-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Red/Tie"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64148,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations/1989"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987"
+      }]
+    }
+  },
+  {
+    "id": 1988,
+    "date_created": "2018-12-13T07:41:00",
+    "date_created_gmt": "2018-12-13T07:41:00",
+    "date_modified": "2018-12-13T07:41:03",
+    "date_modified_gmt": "2018-12-13T07:41:03",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/shirt-with-a-tie-bow-tie/?attribute_pa_color=light-blue-bow-tie",
+    "sku": "Shirt-with-a-tie-bow-tie-light-blue-bow-tie",
+    "price": "29.95",
+    "regular_price": "29.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1750,
+      "date_created": "2018-12-13T07:08:27",
+      "date_created_gmt": "2018-12-13T07:08:27",
+      "date_modified": "2018-12-13T07:08:27",
+      "date_modified_gmt": "2018-12-13T07:08:27",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/shirt-with-a-tie-bow-tie-light-blue-bow-tie-01.jpeg",
+      "name": "shirt-with-a-tie-bow-tie-light-blue-bow-tie-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Light Blue/Bow Tie"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64142,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations/1988"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1987"
+      }]
+    }
+  }
+]

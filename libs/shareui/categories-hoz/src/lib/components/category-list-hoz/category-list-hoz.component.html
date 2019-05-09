@@ -1,0 +1,7 @@
+<div #list class="category-list-container" *ngIf="categories && !loading">
+  <div id="cat__1" *ngIf="!loading" class="card" [class.selected]="selectId === -1" (click)="onSelect(-1)">
+    <ion-icon *ngIf="showImage" name="aperture"></ion-icon>
+    <div class="title">All</div>
+  </div>
+  <xui-category-item-hoz *ngFor="let category of categories" id="cat{{category.id}}" [showParent]="showParent" [showImage]="showImage" [selectId]="selectId" [category]="category" (select)="onSelect($event)"></xui-category-item-hoz>
+</div>

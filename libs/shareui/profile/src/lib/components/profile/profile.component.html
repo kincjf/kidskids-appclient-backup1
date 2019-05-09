@@ -1,0 +1,42 @@
+<div *ngIf="profile" class="profile-wrapper">
+  <div class="profile-avatar">
+    <div class="avatar">
+      <img [src]="profile.avatar_url">
+    </div>
+    <div class="username">
+      <div *ngIf="!profile.first_name && !profile.last_name" class="nickname">{{profile.username}}</div>
+      <div *ngIf="profile.first_name || profile.last_name" class="nickname">{{profile.first_name}}
+        {{profile.last_name}}</div>
+      <ion-button fill="clear" (click)="goEdit()">
+        <ion-icon color="medium" name="create"></ion-icon>
+      </ion-button>
+    </div>
+    <div class="email">
+      {{profile.email}}
+    </div>
+  </div>
+
+  <div class="profile-info">
+    <ion-list>
+      <ion-item-divider color="light">
+        <ion-label>
+          Billing Address
+        </ion-label>
+        <ion-button slot="end" fill="clear" (click)="changeBilling($event)">
+          <ion-icon color="medium" name="create"></ion-icon>
+        </ion-button>
+      </ion-item-divider>
+      <xui-address-item [address]="profile.billing" (select)="changeBilling($event)"></xui-address-item>
+      <ion-item-divider color="light">
+        <ion-label>
+          Shipping Address
+        </ion-label>
+        <ion-button slot="end" fill="clear" (click)="changeShipping($event)">
+          <ion-icon color="medium" name="create"></ion-icon>
+        </ion-button>
+      </ion-item-divider>
+      <xui-address-item [address]="profile.shipping" (select)="changeShipping($event)"></xui-address-item>
+    </ion-list>
+
+  </div>
+</div>

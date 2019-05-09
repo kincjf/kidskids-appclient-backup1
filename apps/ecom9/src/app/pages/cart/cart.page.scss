@@ -1,0 +1,40 @@
+ion-footer {
+  .total-wrapper {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .total {
+      flex: 1;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      padding-left: 20px;
+      font-weight: 600;
+      color: var(--ion-color-primary);
+    }
+
+    .price {
+      flex: 1;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 20px;
+      font-weight: 600;
+    }
+  }
+
+  ion-button {
+    margin: 0 0;
+    --height: 42px;
+    font-family: Ubuntu-Regular;
+  }
+}

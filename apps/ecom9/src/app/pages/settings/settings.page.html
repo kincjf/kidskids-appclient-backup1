@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button>
+        <img class="menu-button" src="../../../assets/imgs/menu.png">
+      </ion-menu-button>
+    </ion-buttons>
+    <ion-title>Settings</ion-title>
+    <ion-buttons slot="end">
+      <ion-button color="medium" (click)="logout()">
+        <ion-icon name="log-out"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="page-settings">
+  <ion-list class="settings-items">
+    <ion-item button (click)="goToEditProfile()">
+      Profile
+    </ion-item>
+    <ion-item button (click)="goToAddressBook()">
+      Address Book
+    </ion-item>
+
+    <ion-item *ngIf="(country$ | async)" button (click)="goToCountries()">
+      Ship To
+      <p slot="end" [innerHTML]="(country$ | async).name">
+      </p>
+    </ion-item>
+    <ion-item *ngIf="(currency$ | async)" button (click)="goToCurrencies()">
+      Currency
+      <p slot="end" [innerHTML]="(currency$ | async).symbol">
+      </p>
+    </ion-item>
+    <ion-item button (click)="goToLanguages()">
+      Language
+      <p slot="end">
+        English
+      </p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list class="settings-items next">
+    <ion-item button (click)="goToNotificationSettings()">
+      Notification Settings
+    </ion-item>
+    <ion-item button>
+      Clear Cache
+      <p slot="end">
+        7.18MB
+      </p>
+    </ion-item>
+    <ion-item button>
+      Check New Version
+      <p slot="end">
+        1.0.0
+      </p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list class="settings-items next">
+    <ion-item button (click)="goToChangePassword()">
+      Change Password
+    </ion-item>
+    <ion-item button (click)="goToPolicy()">
+      Private Policy
+    </ion-item>
+    <ion-item button (click)="goWelcome()">
+      Welcome
+    </ion-item>
+  </ion-list>
+</ion-content>

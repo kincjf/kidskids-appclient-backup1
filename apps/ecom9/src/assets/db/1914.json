@@ -1,0 +1,147 @@
+[{
+    "id": 1916,
+    "date_created": "2018-12-13T07:40:24",
+    "date_created_gmt": "2018-12-13T07:40:24",
+    "date_modified": "2018-12-13T07:40:29",
+    "date_modified_gmt": "2018-12-13T07:40:29",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/skinny-jeans/?attribute_pa_color=dark-denim-blue",
+    "sku": "Skinny-jeans-dark-denim-blue",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 688,
+      "date_created": "2018-12-12T06:33:10",
+      "date_created_gmt": "2018-12-12T06:33:10",
+      "date_modified": "2018-12-12T06:33:10",
+      "date_modified_gmt": "2018-12-12T06:33:10",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/skinny-jeans-dark-denim-blue-01.jpeg",
+      "name": "skinny-jeans-dark-denim-blue-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark denim blue"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60769,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1914/variations/1916"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1914/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1914"
+      }]
+    }
+  },
+  {
+    "id": 1915,
+    "date_created": "2018-12-13T07:40:24",
+    "date_created_gmt": "2018-12-13T07:40:24",
+    "date_modified": "2018-12-13T07:40:29",
+    "date_modified_gmt": "2018-12-13T07:40:29",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/skinny-jeans/?attribute_pa_color=black-denim",
+    "sku": "Skinny-jeans-black-denim",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 682,
+      "date_created": "2018-12-12T06:32:51",
+      "date_created_gmt": "2018-12-12T06:32:51",
+      "date_modified": "2018-12-12T06:32:51",
+      "date_modified_gmt": "2018-12-12T06:32:51",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/skinny-jeans-black-denim-01.jpeg",
+      "name": "skinny-jeans-black-denim-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black denim"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60763,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1914/variations/1915"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1914/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1914"
+      }]
+    }
+  }
+]

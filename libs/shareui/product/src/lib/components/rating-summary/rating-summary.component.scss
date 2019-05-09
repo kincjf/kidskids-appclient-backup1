@@ -1,0 +1,106 @@
+:host {
+  width: 100%;
+
+  .summary-wrapper {
+    padding: 20px 10px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid var(--ion-color-light);
+
+    .title {
+      width: 100%;
+      font-size: 1.18rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .row {
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      .total {
+        font-size: 0.88rem;
+
+        span {
+          margin-right: 5px;
+        }
+      }
+
+      .left {
+        flex: 3;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .number {
+          font-size: 2.06rem;
+          font-weight: 600;
+          margin-right: 5px;
+        }
+
+        ion-icon {
+          font-size: 2.06rem;
+        }
+      }
+
+      .row:first-child {
+        margin-top: 10px;
+      }
+
+      .right {
+        flex: 4;
+        width: 100%;
+        border-left: 1px solid var(--ion-color-medium);
+        padding-left: 10px;
+
+        .progress-wrapper {
+          margin-top: 5px;
+          display: flex;
+          display: -webkit-flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+
+          .progress-title {
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-right: 5px;
+
+            .number {
+              width: 15px;
+            }
+          }
+
+          .progress-bar {
+            flex: 1;
+            height: 12px;
+            background-color: var(--ion-color-light);
+
+            .progress {
+              height: 100%;
+              background-color: var(--ion-color-medium);
+            }
+          }
+        }
+
+        .progress-wrapper:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

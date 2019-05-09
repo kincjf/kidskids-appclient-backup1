@@ -1,0 +1,220 @@
+[{
+    "id": 1944,
+    "date_created": "2018-12-13T07:40:42",
+    "date_created_gmt": "2018-12-13T07:40:42",
+    "date_modified": "2018-12-13T07:40:46",
+    "date_modified_gmt": "2018-12-13T07:40:46",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/cotton-joggers/?attribute_pa_color=light-grey-marl-animals",
+    "sku": "Cotton joggers-light-grey-marl-animals",
+    "price": "9.9",
+    "regular_price": "9.9",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1027,
+      "date_created": "2018-12-12T08:25:57",
+      "date_created_gmt": "2018-12-12T08:25:57",
+      "date_modified": "2018-12-12T08:25:57",
+      "date_modified_gmt": "2018-12-12T08:25:57",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/cotton-joggers-light-grey-marl-animals-01.jpeg",
+      "name": "cotton-joggers-light-grey-marl-animals-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Light grey marl/Animals"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 61995,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941/variations/1944"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941"
+      }]
+    }
+  },
+  {
+    "id": 1943,
+    "date_created": "2018-12-13T07:40:42",
+    "date_created_gmt": "2018-12-13T07:40:42",
+    "date_modified": "2018-12-13T07:40:46",
+    "date_modified_gmt": "2018-12-13T07:40:46",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/cotton-joggers/?attribute_pa_color=dark-blue-red",
+    "sku": "Cotton joggers-dark-blue-red",
+    "price": "9.9",
+    "regular_price": "9.9",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1025,
+      "date_created": "2018-12-12T08:25:54",
+      "date_created_gmt": "2018-12-12T08:25:54",
+      "date_modified": "2018-12-12T08:25:54",
+      "date_modified_gmt": "2018-12-12T08:25:54",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/cotton-joggers-dark-blue-red-01.jpeg",
+      "name": "cotton-joggers-dark-blue-red-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark blue/Red"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 61989,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941/variations/1943"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941"
+      }]
+    }
+  },
+  {
+    "id": 1942,
+    "date_created": "2018-12-13T07:40:42",
+    "date_created_gmt": "2018-12-13T07:40:42",
+    "date_modified": "2018-12-13T07:40:46",
+    "date_modified_gmt": "2018-12-13T07:40:46",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/cotton-joggers/?attribute_pa_color=dark-blue-anchors",
+    "sku": "Cotton joggers-dark-blue-anchors",
+    "price": "9.9",
+    "regular_price": "9.9",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1023,
+      "date_created": "2018-12-12T08:25:45",
+      "date_created_gmt": "2018-12-12T08:25:45",
+      "date_modified": "2018-12-12T08:25:45",
+      "date_modified_gmt": "2018-12-12T08:25:45",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/cotton-joggers-dark-blue-anchors-01.jpeg",
+      "name": "cotton-joggers-dark-blue-anchors-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark blue/Anchors"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 61983,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941/variations/1942"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1941"
+      }]
+    }
+  }
+]

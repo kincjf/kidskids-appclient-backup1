@@ -1,0 +1,30 @@
+<ion-content>
+  <xui-welcome #slider [slides]="slides" (currentSlide)="setCurrentSlideContent($event)"></xui-welcome>
+  <div *ngIf="slide" class="slide-content">
+    <div class="title">
+      {{slide.title}}
+    </div>
+    <div class="sub-title" [innerHTML]="slide.sub_title"></div>
+  </div>
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button color="light">
+      <ion-icon src="../../../assets/imgs/logonew.svg"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button (click)="skip()">
+        <ion-icon name="home"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="start">
+      <ion-fab-button (click)="prev()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="end">
+      <ion-fab-button (click)="next()">
+        <ion-icon name="arrow-forward"></ion-icon>
+      </ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>

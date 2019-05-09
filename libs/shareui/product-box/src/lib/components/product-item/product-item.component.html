@@ -1,0 +1,13 @@
+<div *ngIf="product">
+  <div *ngIf="product.status === 'publish'" class="product-box" (click)="goProduct()">
+    <ion-img class="image-wrapper" [src]="product.images[0].src"></ion-img>
+    <div class="product-infor">
+      <div class="product-name">
+        {{product.name}}
+      </div>
+      <div *ngIf="currency" class="price">
+        <span class="money" [innerHTML]="currency.symbol"></span> {{product.price | number: '1.0-2'}}
+      </div>
+    </div>
+  </div>
+</div>

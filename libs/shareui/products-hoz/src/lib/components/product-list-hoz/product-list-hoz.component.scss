@@ -1,0 +1,24 @@
+.related-product-wrapper {
+  width: 100%;
+  background-color: transparent;
+
+  .related-products {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+.no-product {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

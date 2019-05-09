@@ -1,0 +1,251 @@
+[
+    {
+        "id": 1803,
+        "date_created": "2018-12-13T07:39:38",
+        "date_created_gmt": "2018-12-13T07:39:38",
+        "date_modified": "2018-12-13T07:39:42",
+        "date_modified_gmt": "2018-12-13T07:39:42",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-blouse/?attribute_pa_color=white-striped",
+        "sku": "Long-sleeved-blouse-white-striped",
+        "price": "19",
+        "regular_price": "19",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 297,
+            "date_created": "2018-12-11T08:24:54",
+            "date_created_gmt": "2018-12-11T08:24:54",
+            "date_modified": "2018-12-11T08:24:54",
+            "date_modified_gmt": "2018-12-11T08:24:54",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-blouse-white-striped.jpeg",
+            "name": "long-sleeved-blouse-white-striped",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "White Striped"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56934,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800/variations/1803"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1802,
+        "date_created": "2018-12-13T07:39:38",
+        "date_created_gmt": "2018-12-13T07:39:38",
+        "date_modified": "2018-12-13T07:39:42",
+        "date_modified_gmt": "2018-12-13T07:39:42",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-blouse/?attribute_pa_color=dark-blue-white-striped",
+        "sku": "Long-sleeved-blouse-dark-blue-white-striped",
+        "price": "25",
+        "regular_price": "25",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "outofstock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 302,
+            "date_created": "2018-12-11T08:25:05",
+            "date_created_gmt": "2018-12-11T08:25:05",
+            "date_modified": "2018-12-11T08:25:05",
+            "date_modified_gmt": "2018-12-11T08:25:05",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-blouse-dark-blue-white-stripe.jpeg",
+            "name": "long-sleeved-blouse-dark-blue-white-stripe",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Dark Blue White Striped"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56928,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800/variations/1802"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1801,
+        "date_created": "2018-12-13T07:39:38",
+        "date_created_gmt": "2018-12-13T07:39:38",
+        "date_modified": "2018-12-13T07:39:42",
+        "date_modified_gmt": "2018-12-13T07:39:42",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-blouse/?attribute_pa_color=black",
+        "sku": "Long-sleeved-blouse-black",
+        "price": "20",
+        "regular_price": "20",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 303,
+            "date_created": "2018-12-11T08:25:07",
+            "date_created_gmt": "2018-12-11T08:25:07",
+            "date_modified": "2018-12-11T08:25:07",
+            "date_modified_gmt": "2018-12-11T08:25:07",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-blouse-black.jpeg",
+            "name": "long-sleeved-blouse-black",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Black"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56922,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800/variations/1801"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1800"
+                }
+            ]
+        }
+    }
+]

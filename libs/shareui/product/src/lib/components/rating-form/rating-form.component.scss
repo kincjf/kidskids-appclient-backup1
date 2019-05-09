@@ -1,0 +1,70 @@
+.review-form {
+  padding: 10px 20px 0px 20px;
+  margin-bottom: 0 !important;
+
+  ion-input,
+  ion-textarea {
+    border-bottom: 1px solid var(--ion-color-medium-tint);
+    font-size: 0.88rem;
+  }
+
+  ion-input:focus {
+    color: var(--ion-color-primary);
+  }
+
+
+  .item {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    --ion-item-border-color: transparent;
+    --padding-start: 0;
+    --inner-padding-end: 0;
+  }
+
+  .item-inner {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .stars-wrapper {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .stars {
+      width: 80%;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+ion-button {
+  font-family: Ubuntu-Regular;
+}
+
+ion-button:hover {
+  opacity: 0.8;
+}
+
+.forgot-password {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.error-message {
+  margin-top: 5px;
+  color: var(--ion-color-danger);
+  font-size: 0.68rem;
+}

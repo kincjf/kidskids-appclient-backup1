@@ -1,0 +1,4 @@
+<ion-button (click)="goCart()">
+  <ion-icon name="cart"></ion-icon>
+  <ion-badge class="cart-badge" *ngIf="total > 0" color="primary">{{total}}</ion-badge>
+</ion-button>

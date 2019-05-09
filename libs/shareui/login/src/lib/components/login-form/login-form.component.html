@@ -1,0 +1,48 @@
+<form [formGroup]="signinForm" (ngSubmit)="signin()">
+  <ion-list class="signin-form">
+    <ion-item>
+      <ion-label position="floating">
+        Email
+      </ion-label>
+      <ion-input formControlName="email" required type="email" autofocus>
+      </ion-input>
+      <ion-icon slot="end" color="primary" class="email" name="mail"></ion-icon>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.email">
+        <div class="error-message" *ngIf="signinForm.get('email').hasError(validation.type) && (signinForm.get('email').dirty || signinForm.get('email').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+    <ion-item>
+      <ion-label position="floating">
+        Password
+      </ion-label>
+      <ion-input formControlName="password" required [type]="passwordType"></ion-input>
+      <ion-icon color="medium" *ngIf="passwordType === 'password'" slot="end" name="eye-off" (click)="toggle()"></ion-icon>
+      <ion-icon color="primary" *ngIf="passwordType === 'text'" slot="end" name="eye" (click)="toggle()"></ion-icon>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.password">
+        <div class="error-message" *ngIf="signinForm.get('password').hasError(validation.type) && (signinForm.get('password').dirty || signinForm.get('password').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+    <div *ngIf="errorMessage" class="validation-errors">
+      <div class="error-message" [innerHTML]="errorMessage.message.replace('Lost your password?', '')">
+      </div>
+    </div>
+  </ion-list>
+  <div class="forgot-password">
+    <ion-button size="small" fill="clear" color="medium" (click)="forgot()">Forgot Password?</ion-button>
+  </div>
+  <div class="actions">
+    <ion-button shape="round" color="primary" expand="full" type="submit" [disabled]="pending">Signin</ion-button>
+
+    <ion-button class="no-account" color="medium" fill="clear" expand="full" type="submit" (click)="goRegister()">
+      Do not have account? Register here.
+    </ion-button>
+  </div>
+</form>

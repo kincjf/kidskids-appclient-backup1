@@ -1,0 +1,147 @@
+[{
+    "id": 1964,
+    "date_created": "2018-12-13T07:40:51",
+    "date_created_gmt": "2018-12-13T07:40:51",
+    "date_modified": "2018-12-13T07:40:55",
+    "date_modified_gmt": "2018-12-13T07:40:55",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/printed-hooded-top/?attribute_pa_color=dark-green-reversible-sequins",
+    "sku": "Printed-hooded-top-dark-green-reversible-sequins",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 982,
+      "date_created": "2018-12-12T08:24:41",
+      "date_created_gmt": "2018-12-12T08:24:41",
+      "date_modified": "2018-12-12T08:24:41",
+      "date_modified_gmt": "2018-12-12T08:24:41",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/printed-hooded-top-dark-green-reversible-sequins-01.jpeg",
+      "name": "printed-hooded-top-dark-green-reversible-sequins-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark green/Reversible sequins"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63175,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1962/variations/1964"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1962/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1962"
+      }]
+    }
+  },
+  {
+    "id": 1963,
+    "date_created": "2018-12-13T07:40:51",
+    "date_created_gmt": "2018-12-13T07:40:51",
+    "date_modified": "2018-12-13T07:40:55",
+    "date_modified_gmt": "2018-12-13T07:40:55",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/printed-hooded-top/?attribute_pa_color=dark-blue-reversible-sequins",
+    "sku": "Printed-hooded-top-dark-blue-reversible-sequins",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 977,
+      "date_created": "2018-12-12T08:24:29",
+      "date_created_gmt": "2018-12-12T08:24:29",
+      "date_modified": "2018-12-12T08:24:29",
+      "date_modified_gmt": "2018-12-12T08:24:29",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/printed-hooded-top-dark-blue-reversible-sequins-01.jpeg",
+      "name": "printed-hooded-top-dark-blue-reversible-sequins-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark blue/Reversible sequins"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63169,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1962/variations/1963"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1962/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1962"
+      }]
+    }
+  }
+]

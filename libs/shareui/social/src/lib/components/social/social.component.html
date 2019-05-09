@@ -1,0 +1,14 @@
+<div class="social-wrapper">
+  <div class="left">Or Sign in with</div>
+  <div class="right">
+    <ion-button size="small" fill="clear" (click)="goFacebook()">
+      <img slot="icon-only" src="assets/imgs/facebook.png" />
+    </ion-button>
+    <ion-button *ngIf="enableTwitter" size="small" fill="clear" (click)="goTwitter()">
+      <img slot="icon-only" src="assets/imgs/twitter.png" />
+    </ion-button>
+    <ion-button size="small" fill="clear" (click)="goGoogle()">
+      <img slot="icon-only" src="assets/imgs/google.png" />
+    </ion-button>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+.reviews-wrapper {
+  width: 100%;
+
+  .loading {
+    width: 96%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .no-reviews {
+    width: 100%;
+    color: var(--ion-color-medium);
+  }
+
+  .rating-reviews {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .stars {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .number {
+      margin-left: 10px;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      span {
+        margin-right: 5px;
+      }
+    }
+  }
+}

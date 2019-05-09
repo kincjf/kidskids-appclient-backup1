@@ -1,0 +1,7 @@
+<div class="card" *ngIf="((!showParent && category.parent !== 0) || showParent) && category.name !== 'Uncategorized'"
+  [class.selected]="category.id == selectId" (click)="selectCard()">
+  <div *ngIf="showImage && category.image">
+    <img [src]="getImage(category.image.src)" (error)="category.image.src">
+  </div>
+  <div class="title" [innerHTML]="category.name"></div>
+</div>

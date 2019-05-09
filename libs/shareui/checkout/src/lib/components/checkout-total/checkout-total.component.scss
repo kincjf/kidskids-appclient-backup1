@@ -1,0 +1,52 @@
+.checkout-total-wrapper {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .total-wrapper {
+    flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .title {
+      flex: 1;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      padding-left: 20px;
+      font-weight: 600;
+      color: var(--ion-color-primary);
+    }
+
+    .price {
+      flex: 1;
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 20px;
+      font-weight: 600;
+
+      .money {
+        margin-top: 2px;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .action-wrapper {
+    flex: 1;
+
+    ion-button {
+      margin: 0 0;
+    }
+  }
+}

@@ -1,0 +1,366 @@
+[{
+    "id": 1900,
+    "date_created": "2018-12-13T07:40:22",
+    "date_created_gmt": "2018-12-13T07:40:22",
+    "date_modified": "2018-12-13T07:40:26",
+    "date_modified_gmt": "2018-12-13T07:40:26",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-jersey-top/?attribute_pa_color=black",
+    "sku": "Long-sleeved-jersey-top-black",
+    "price": "12.5",
+    "regular_price": "12.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 765,
+      "date_created": "2018-12-12T06:36:28",
+      "date_created_gmt": "2018-12-12T06:36:28",
+      "date_modified": "2018-12-12T06:36:28",
+      "date_modified_gmt": "2018-12-12T06:36:28",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-jersey-top-black-01.jpeg",
+      "name": "long-sleeved-jersey-top-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60681,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations/1900"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895"
+      }]
+    }
+  },
+  {
+    "id": 1899,
+    "date_created": "2018-12-13T07:40:22",
+    "date_created_gmt": "2018-12-13T07:40:22",
+    "date_modified": "2018-12-13T07:40:26",
+    "date_modified_gmt": "2018-12-13T07:40:26",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-jersey-top/?attribute_pa_color=white",
+    "sku": "Long-sleeved-jersey-top-white",
+    "price": "12.5",
+    "regular_price": "12.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 761,
+      "date_created": "2018-12-12T06:36:25",
+      "date_created_gmt": "2018-12-12T06:36:25",
+      "date_modified": "2018-12-12T06:36:25",
+      "date_modified_gmt": "2018-12-12T06:36:25",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-jersey-top-white-01.jpeg",
+      "name": "long-sleeved-jersey-top-white-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60675,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations/1899"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895"
+      }]
+    }
+  },
+  {
+    "id": 1898,
+    "date_created": "2018-12-13T07:40:22",
+    "date_created_gmt": "2018-12-13T07:40:22",
+    "date_modified": "2018-12-13T07:40:26",
+    "date_modified_gmt": "2018-12-13T07:40:26",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-jersey-top/?attribute_pa_color=blue-narrow-striped",
+    "sku": "Long-sleeved-jersey-top-blue-narrow-striped",
+    "price": "12.5",
+    "regular_price": "12.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 758,
+      "date_created": "2018-12-12T06:36:23",
+      "date_created_gmt": "2018-12-12T06:36:23",
+      "date_modified": "2018-12-12T06:36:23",
+      "date_modified_gmt": "2018-12-12T06:36:23",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-jersey-top-blue-narrow-striped-01.jpeg",
+      "name": "long-sleeved-jersey-top-blue-narrow-striped-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Blue/Narrow-striped"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60669,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations/1898"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895"
+      }]
+    }
+  },
+  {
+    "id": 1897,
+    "date_created": "2018-12-13T07:40:22",
+    "date_created_gmt": "2018-12-13T07:40:22",
+    "date_modified": "2018-12-13T07:40:26",
+    "date_modified_gmt": "2018-12-13T07:40:26",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-jersey-top/?attribute_pa_color=burgundy-blue-striped",
+    "sku": "Long-sleeved-jersey-top-burgundy-blue-striped",
+    "price": "12.5",
+    "regular_price": "12.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "outofstock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 750,
+      "date_created": "2018-12-12T06:36:09",
+      "date_created_gmt": "2018-12-12T06:36:09",
+      "date_modified": "2018-12-12T06:36:09",
+      "date_modified_gmt": "2018-12-12T06:36:09",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-jersey-top-burgundy-blue-striped-01.jpeg",
+      "name": "long-sleeved-jersey-top-burgundy-blue-striped-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Burgundy/Blue striped"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60663,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations/1897"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895"
+      }]
+    }
+  },
+  {
+    "id": 1896,
+    "date_created": "2018-12-13T07:40:22",
+    "date_created_gmt": "2018-12-13T07:40:22",
+    "date_modified": "2018-12-13T07:40:26",
+    "date_modified_gmt": "2018-12-13T07:40:26",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/long-sleeved-jersey-top/?attribute_pa_color=dark-turquoise",
+    "sku": "Long-sleeved-jersey-top-dark-turquoise",
+    "price": "12.5",
+    "regular_price": "12.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 745,
+      "date_created": "2018-12-12T06:36:04",
+      "date_created_gmt": "2018-12-12T06:36:04",
+      "date_modified": "2018-12-12T06:36:04",
+      "date_modified_gmt": "2018-12-12T06:36:04",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/long-sleeved-jersey-top-dark-turquoise-01.jpeg",
+      "name": "long-sleeved-jersey-top-dark-turquoise-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark turquoise"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60657,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations/1896"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1895"
+      }]
+    }
+  }
+]

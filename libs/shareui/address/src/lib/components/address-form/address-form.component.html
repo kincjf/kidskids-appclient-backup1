@@ -1,0 +1,126 @@
+<ion-list class="address-form">
+  <form *ngIf="address" [formGroup]="addressForm">
+    <ion-item>
+      <ion-label position="floating">
+        First Name
+      </ion-label>
+      <ion-input formControlName="first_name" required type="text" autofocus></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.first_name">
+        <div class="error-message" *ngIf="addressForm.get('first_name').hasError(validation.type) && (addressForm.get('first_name').dirty || addressForm.get('first_name').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+    <ion-item>
+      <ion-label position="floating">
+        Last Name
+      </ion-label>
+      <ion-input formControlName="last_name" required type="text"></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.last_name">
+        <div class="error-message" *ngIf="addressForm.get('last_name').hasError(validation.type) && (addressForm.get('last_name').dirty || addressForm.get('last_name').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+    <ion-item>
+      <ion-label position="floating">
+        Email
+      </ion-label>
+      <ion-input formControlName="email" required type="email"></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.email">
+        <div class="error-message" *ngIf="addressForm.get('email').hasError(validation.type) && (addressForm.get('email').dirty || addressForm.get('email').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+    <ion-item>
+      <ion-label position="floating">
+        Phone
+      </ion-label>
+      <ion-input formControlName="phone" required type="tel"></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.phone">
+        <div class="error-message" *ngIf="addressForm.get('phone').hasError(validation.type) && (addressForm.get('phone').dirty || addressForm.get('phone').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">
+        Address 1
+      </ion-label>
+      <ion-input formControlName="address_1" required type="text"></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.address_1">
+        <div class="error-message" *ngIf="addressForm.get('address_1').hasError(validation.type) && (addressForm.get('address_1').dirty || addressForm.get('address_1').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label position="floating">
+        Address 2
+      </ion-label>
+      <ion-input formControlName="address_2" type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">
+        City
+      </ion-label>
+      <ion-input formControlName="city" required type="text"></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.city">
+        <div class="error-message" *ngIf="addressForm.get('city').hasError(validation.type) && (addressForm.get('city').dirty || addressForm.get('city').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+
+    <ion-item>
+      <ion-label>
+        Country
+      </ion-label>
+      <ion-select formControlName="country" required ok-text="Okay" cancel-text="Dismiss" (ionChange)="onChangeCountry($event)">
+        <ion-select-option *ngFor="let country of countries" [value]="country.code" [innerHTML]="country.name"></ion-select-option>
+      </ion-select>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.country">
+        <div class="error-message" *ngIf="addressForm.get('country').hasError(validation.type) && (addressForm.get('country').dirty || addressForm.get('country').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+
+    <ion-item *ngIf="states">
+      <ion-label>
+        State
+      </ion-label>
+      <ion-select formControlName="state" required ok-text="Okay" cancel-text="Dismiss">
+        <ion-select-option *ngFor="let state of states" [value]="state.code" [innerHTML]="state.name"></ion-select-option>
+      </ion-select>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.state">
+        <div class="error-message" *ngIf="addressForm.get('state').hasError(validation.type) && (addressForm.get('state').dirty || addressForm.get('state').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+  </form>
+</ion-list>
+<div class="save-action">
+  <ion-button expand="full" fill="solid" (click)="submit()">Save</ion-button>
+</div>

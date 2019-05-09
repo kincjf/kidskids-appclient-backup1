@@ -1,0 +1,12 @@
+<ion-item (click)="toggle()">
+  <ion-label [innerHTML]="menu.name"></ion-label>
+  <ion-icon *ngIf="!show" slot="end" name="add"></ion-icon>
+  <ion-icon *ngIf="show" slot="end" name="remove"></ion-icon>
+</ion-item>
+<ion-menu-toggle *ngIf="menu" auto-hide="false">
+  <div *ngFor="let item of menu.children">
+    <ion-item *ngIf="show" [class.child]="item.parent !== 0" [class.current]="isCurrent === item.id" [routerDirection]="'root'" (click)="onClick(item)">
+      <ion-label [innerHTML]="item.name"></ion-label>
+    </ion-item>
+  </div>
+</ion-menu-toggle>

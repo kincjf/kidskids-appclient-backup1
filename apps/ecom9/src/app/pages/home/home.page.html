@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button>
+        <img class="menu-button" src="../../../assets/imgs/menu.png">
+      </ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+    <ion-buttons slot="end">
+      <xui-cart-total [total]="cartTotal$ | async" (cart)="onCart()"></xui-cart-total>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <xui-category-list-hoz [showImage]="false" [categories]="categories$ | async" [selectId]="selectId$ | async"
+    [loading]="categoriesLoading$ | async" [error]="error$ | async" (select)="onSelectCategory($event)"></xui-category-list-hoz>
+
+  <xui-product-list [products]="products$ | async" [imageSize]="imageSize" [currency]="currency$ | async" [loading]="isLoading$ | async" [error]="error$ | async"
+    (select)="onSelectProduct($event)"></xui-product-list>
+</ion-content>

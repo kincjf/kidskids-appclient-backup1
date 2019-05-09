@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/address"></ion-back-button>
+    </ion-buttons>
+    <ion-title>New Address</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <xui-address-form (save)="onSave($event)"></xui-address-form>
+</ion-content>

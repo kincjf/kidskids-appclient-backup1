@@ -1,0 +1,21 @@
+<ion-app>
+  <ion-split-pane>
+    <ion-menu (ionDidOpen)="openMenu()" (ionWillClose)="closeMenu()">
+      <ion-content>
+        <div class="menu-wrapper">
+          <xui-menu-list [menus]="menus$ | async" [current]="current" (menuClick)="onMenuClick($event)"></xui-menu-list>
+          <ion-list>
+            <ion-menu-toggle auto-hide="false">
+              <div *ngFor="let item of menus2">
+                <ion-item [routerDirection]="'root'" [class.current]="item.id === isCurrent" (click)="onClick(item)">
+                  <ion-label [innerHTML]="item.name"></ion-label>
+                </ion-item>
+              </div>
+            </ion-menu-toggle>
+          </ion-list>
+        </div>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet #outlet main></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

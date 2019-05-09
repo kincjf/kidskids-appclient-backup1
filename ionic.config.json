@@ -1,0 +1,13 @@
+{
+  "defaultProject": "ecom9",
+  "projects": {
+    "ecom9": {
+      "name": "9ecom",
+      "integrations": {
+        "cordova": {}
+      },
+      "type": "angular",
+      "root": "apps/ecom9"
+    }
+  }
+}

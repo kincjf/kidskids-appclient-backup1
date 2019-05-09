@@ -1,0 +1,31 @@
+<div class="logo">
+  <img src="assets/imgs/small-top-logo.png">
+</div>
+<form [formGroup]="forgotForm" (ngSubmit)="forgot()">
+  <ion-list class="forgot-form">
+    <ion-item>
+      <ion-label position="floating">
+        Email
+      </ion-label>
+      <ion-input formControlName="email" required type="email" autofocus>
+      </ion-input>
+      <ion-button size="small" fill="clear" slot="end">
+        <ion-icon color="primary" class="email" name="mail"></ion-icon>
+      </ion-button>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.email">
+        <div class="error-message" *ngIf="forgotForm.get('email').hasError(validation.type) && (forgotForm.get('email').dirty || forgotForm.get('email').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+  </ion-list>
+  <div class="actions">
+    <ion-button shape="round" color="primary" expand="full" type="submit">Submit</ion-button>
+
+    <ion-button class="no-account" color="medium" fill="clear" expand="full" type="submit" (click)="goRegister()">
+      Do not have account? Register here.
+    </ion-button>
+  </div>
+</form>

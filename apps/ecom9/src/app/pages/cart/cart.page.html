@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Cart</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <xui-item-list [products]="(cartProducts$ | async)" [currency]="currency$ | async" 
+    (delete)="onDelete($event)" 
+    (increment)="onIncrement($event)"
+    (decrement)="onDecrement($event)"
+    (clickItem)="goProduct($event)"
+    ></xui-item-list>
+</ion-content>
+
+<ion-footer no-border class="cart-footer">
+  <div *ngIf="(total$ | async) > 0" class="total-wrapper">
+    <div class="total">
+      Total:
+    </div>
+    <div class="price">
+      <span [innerHTML]="(currency$ | async).symbol"></span>
+      <span>{{(total$ | async)}}</span>
+    </div>
+  </div>
+  <ion-button expand="full" fill="solid" (click)="checkout()" [disabled]="(cartProducts$ | async).length === 0">Checkout</ion-button>
+</ion-footer>

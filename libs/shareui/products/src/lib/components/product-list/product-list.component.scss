@@ -1,0 +1,20 @@
+.product-list-container {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0 10px;
+}
+
+.no-product {
+  margin-top: 10vh;
+  width: 100vw;
+  min-height: 15vh;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

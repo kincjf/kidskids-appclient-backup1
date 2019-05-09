@@ -1,0 +1,9 @@
+<div class="product-list-container" *ngIf="products">
+  <xui-product-item *ngFor="let product of products" [imageSize]="imageSize" [product]="product" [currency]="currency" (select)="onSelect($event)"></xui-product-item>
+</div>
+<div class="no-product" *ngIf="loading">
+  <ion-spinner name="lines"></ion-spinner>
+</div>
+<div class="no-product" *ngIf="!loading && products">
+  <span *ngIf="products.length === 0">No products found</span>
+</div>

@@ -1,0 +1,147 @@
+[{
+    "id": 1865,
+    "date_created": "2018-12-13T07:40:04",
+    "date_created_gmt": "2018-12-13T07:40:04",
+    "date_modified": "2018-12-13T07:40:08",
+    "date_modified_gmt": "2018-12-13T07:40:08",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/captains-cap/?attribute_pa_color=black",
+    "sku": "Captain-cap-Black",
+    "price": "15",
+    "regular_price": "15",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 386,
+      "date_created": "2018-12-11T13:52:36",
+      "date_created_gmt": "2018-12-11T13:52:36",
+      "date_modified": "2018-12-11T13:52:36",
+      "date_modified_gmt": "2018-12-11T13:52:36",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/captain-cap-black-01.jpeg",
+      "name": "captain-cap-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 59425,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1863/variations/1865"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1863/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1863"
+      }]
+    }
+  },
+  {
+    "id": 1864,
+    "date_created": "2018-12-13T07:40:04",
+    "date_created_gmt": "2018-12-13T07:40:04",
+    "date_modified": "2018-12-13T07:40:08",
+    "date_modified_gmt": "2018-12-13T07:40:08",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/captains-cap/?attribute_pa_color=mole",
+    "sku": "Captain-cap-Mole",
+    "price": "15",
+    "regular_price": "15",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 384,
+      "date_created": "2018-12-11T13:52:35",
+      "date_created_gmt": "2018-12-11T13:52:35",
+      "date_modified": "2018-12-11T13:52:35",
+      "date_modified_gmt": "2018-12-11T13:52:35",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/captain-cap-mole-01.jpeg",
+      "name": "captain-cap-mole-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Mole"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 59420,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1863/variations/1864"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1863/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1863"
+      }]
+    }
+  }
+]

@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/cart"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Address List</ion-title>
+    <ion-buttons slot="end">
+      <ion-button slot="icon-only" (click)="newAddress()">
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <xui-address-list [addresses]="addresses$ | async" (select)="onSelect($event)" (remove)="onRemove($event)" (default)="onDefault($event)"></xui-address-list>
+</ion-content>

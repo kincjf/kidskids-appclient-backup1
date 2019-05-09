@@ -1,0 +1,44 @@
+.social-wrapper {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 15px;
+
+  .left {
+    flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.68rem;
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    ion-button {
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0 0;
+      padding: 0 0;
+      margin-left: 5px;
+
+      img {
+        height: 18px;
+      }
+    }
+  }
+}

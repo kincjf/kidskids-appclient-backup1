@@ -1,0 +1,10 @@
+<div class="payment-methods">
+  <ion-item>
+    <ion-label>
+      <h2>Payment Method</h2>
+    </ion-label>
+  </ion-item>
+  <ion-radio-group (ionChange)="changePaymentMethod($event)">
+    <xui-payment-item *ngFor="let payment of payments" [payment]="payment"></xui-payment-item>
+  </ion-radio-group>
+</div>

@@ -1,0 +1,46 @@
+.category-list-container {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 98vw;
+  vertical-align: middle;
+  padding: 20px 10px;
+  margin: 0 1vw;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .card {
+    display: inline-block;
+    min-width: 10vw;
+    margin-right: 10px;
+    text-align: center;
+    font-family: Ubuntu-Regular;
+    font-size: 0.88rem;
+
+    ion-icon {
+      width: 36px;
+      height: 36px;
+    }
+
+    .title {
+      padding: 3px 5px;
+    }
+  }
+
+  .card:hover {
+    .title {
+      background-color: var(--ion-color-light);
+    }
+  }
+
+  .card.selected {
+    .title {
+      background-color: var(--ion-color-primary);
+      color: var(--ion-color-primary-contrast);
+      border-radius: 10px;
+      padding: 3px 5px;
+    }
+  }
+}

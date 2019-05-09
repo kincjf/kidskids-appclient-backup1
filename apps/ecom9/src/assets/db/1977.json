@@ -1,0 +1,147 @@
+[{
+    "id": 1979,
+    "date_created": "2018-12-13T07:40:53",
+    "date_created_gmt": "2018-12-13T07:40:53",
+    "date_modified": "2018-12-13T07:40:58",
+    "date_modified_gmt": "2018-12-13T07:40:58",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/hooded-fleece-top/?attribute_pa_color=off-white-cat",
+    "sku": "Hooded-fleece-top-off-white-cat",
+    "price": "29.95",
+    "regular_price": "29.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1782,
+      "date_created": "2018-12-13T07:09:30",
+      "date_created_gmt": "2018-12-13T07:09:30",
+      "date_modified": "2018-12-13T07:09:30",
+      "date_modified_gmt": "2018-12-13T07:09:30",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/hooded-fleece-top-off-white-cat-01.jpeg",
+      "name": "hooded-fleece-top-off-white-cat-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Off-White/Cat"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63259,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1977/variations/1979"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1977/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1977"
+      }]
+    }
+  },
+  {
+    "id": 1978,
+    "date_created": "2018-12-13T07:40:53",
+    "date_created_gmt": "2018-12-13T07:40:53",
+    "date_modified": "2018-12-13T07:40:57",
+    "date_modified_gmt": "2018-12-13T07:40:57",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/hooded-fleece-top/?attribute_pa_color=light-grey-owl",
+    "sku": "Hooded-fleece-top-light-grey-owl",
+    "price": "29.95",
+    "regular_price": "29.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1778,
+      "date_created": "2018-12-13T07:09:24",
+      "date_created_gmt": "2018-12-13T07:09:24",
+      "date_modified": "2018-12-13T07:09:24",
+      "date_modified_gmt": "2018-12-13T07:09:24",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/hooded-fleece-top-light-grey-owl-01.jpeg",
+      "name": "hooded-fleece-top-light-grey-owl-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Light Grey/Owl"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63253,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1977/variations/1978"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1977/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1977"
+      }]
+    }
+  }
+]

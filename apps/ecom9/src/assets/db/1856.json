@@ -1,0 +1,147 @@
+[{
+    "id": 1858,
+    "date_created": "2018-12-13T07:39:58",
+    "date_created_gmt": "2018-12-13T07:39:58",
+    "date_modified": "2018-12-13T07:40:02",
+    "date_modified_gmt": "2018-12-13T07:40:02",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/beaded-beret/?attribute_pa_color=black",
+    "sku": "Beaded-beret-Black",
+    "price": "15",
+    "regular_price": "15",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 398,
+      "date_created": "2018-12-11T13:53:01",
+      "date_created_gmt": "2018-12-11T13:53:01",
+      "date_modified": "2018-12-11T13:53:01",
+      "date_modified_gmt": "2018-12-11T13:53:01",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/beaded-beret-black-01.jpeg",
+      "name": "beaded-beret-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 58317,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1856/variations/1858"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1856/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1856"
+      }]
+    }
+  },
+  {
+    "id": 1857,
+    "date_created": "2018-12-13T07:39:58",
+    "date_created_gmt": "2018-12-13T07:39:58",
+    "date_modified": "2018-12-13T07:40:02",
+    "date_modified_gmt": "2018-12-13T07:40:02",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/beaded-beret/?attribute_pa_color=powder-pink-beads",
+    "sku": "Beaded-beret-Powder-pink-Beads",
+    "price": "15",
+    "regular_price": "15",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 396,
+      "date_created": "2018-12-11T13:52:59",
+      "date_created_gmt": "2018-12-11T13:52:59",
+      "date_modified": "2018-12-11T13:52:59",
+      "date_modified_gmt": "2018-12-11T13:52:59",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/beaded-beret-powder-pink-beads-01.jpeg",
+      "name": "beaded-beret-powder-pink-beads-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Powder pink/Beads"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 58312,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1856/variations/1857"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1856/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1856"
+      }]
+    }
+  }
+]

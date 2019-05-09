@@ -1,0 +1,147 @@
+[{
+    "id": 1824,
+    "date_created": "2018-12-13T07:39:41",
+    "date_created_gmt": "2018-12-13T07:39:41",
+    "date_modified": "2018-12-13T07:39:45",
+    "date_modified_gmt": "2018-12-13T07:39:45",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/fitted-dress/?attribute_pa_color=black-sliver-coloured",
+    "sku": "Fitted-dress-black-sliver-coloured",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 274,
+      "date_created": "2018-12-11T08:24:06",
+      "date_created_gmt": "2018-12-11T08:24:06",
+      "date_modified": "2018-12-11T08:24:06",
+      "date_modified_gmt": "2018-12-11T08:24:06",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/fitted-dress-black-silver-coloured-01.jpeg",
+      "name": "fitted-dress-black-silver-coloured-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black Sliver Coloured"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 57053,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1822/variations/1824"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1822/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1822"
+      }]
+    }
+  },
+  {
+    "id": 1823,
+    "date_created": "2018-12-13T07:39:41",
+    "date_created_gmt": "2018-12-13T07:39:41",
+    "date_modified": "2018-12-13T07:39:45",
+    "date_modified_gmt": "2018-12-13T07:39:45",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/fitted-dress/?attribute_pa_color=black-glitter",
+    "sku": "Fitted-dress-black-glitter",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 271,
+      "date_created": "2018-12-11T08:24:00",
+      "date_created_gmt": "2018-12-11T08:24:00",
+      "date_modified": "2018-12-11T08:24:00",
+      "date_modified_gmt": "2018-12-11T08:24:00",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/fitted-dress-black-glitter-01.jpeg",
+      "name": "fitted-dress-black-glitter-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black Glitter"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 57047,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1822/variations/1823"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1822/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1822"
+      }]
+    }
+  }
+]

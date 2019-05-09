@@ -1,0 +1,86 @@
+// http://ionicframework.com/docs/theming/
+@import '~@ionic/angular/css/core.css';
+@import '~@ionic/angular/css/normalize.css';
+@import '~@ionic/angular/css/structure.css';
+@import '~@ionic/angular/css/typography.css';
+
+@import '~@ionic/angular/css/padding.css';
+@import '~@ionic/angular/css/float-elements.css';
+@import '~@ionic/angular/css/text-alignment.css';
+@import '~@ionic/angular/css/text-transformation.css';
+@import '~@ionic/angular/css/flex-utils.css';
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url("/assets/fonts/Ubuntu-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url("/assets/fonts/Ubuntu-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url("/assets/fonts/Ubuntu-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url("/assets/fonts/Ubuntu-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url("/assets/fonts/Raleway-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("/assets/fonts/Montserrat-Regular.ttf") format("ttf");
+}
+
+* {
+  font-family: Ubuntu-Regular;
+}
+
+:root {
+  font-family: Ubuntu-Regular;
+}
+
+.no-scroll .scroll-content {
+  overflow: hidden;
+}
+
+.validation-errors {
+  margin-top: 2px;
+  font-size: 0.68rem;
+  color: var(--ion-color-danger);
+}
+
+.no-data {
+  margin-top: 10vh;
+  width: 100vw;
+  min-height: 15vh;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+img.menu-button {
+  height: 12px;
+}
+
+img.menu-logo {
+  margin-top: 36px;
+  height: 28px;
+}
+
+.skip-button {
+  margin-top: 36px;
+  margin-right: 5px;
+  font-size: 0.88rem;
+}

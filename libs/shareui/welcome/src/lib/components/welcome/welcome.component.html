@@ -1,0 +1,5 @@
+<ion-slides #slider class="xslider" pager="true" (ionSlideDidChange)="slideChanged($event)">
+  <ion-slide *ngFor="let slide of slides">
+    <div class="ximage" [style.backgroundImage]="getImage(slide.image)"></div>
+  </ion-slide>
+</ion-slides>

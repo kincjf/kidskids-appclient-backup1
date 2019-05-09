@@ -1,0 +1,220 @@
+[{
+    "id": 2002,
+    "date_created": "2018-12-13T07:41:02",
+    "date_created_gmt": "2018-12-13T07:41:02",
+    "date_modified": "2018-12-13T07:41:05",
+    "date_modified_gmt": "2018-12-13T07:41:05",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/chino-shorts/?attribute_pa_color=grey",
+    "sku": "Chino-shorts-grey",
+    "price": "24.95",
+    "regular_price": "24.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1726,
+      "date_created": "2018-12-13T07:07:36",
+      "date_created_gmt": "2018-12-13T07:07:36",
+      "date_modified": "2018-12-13T07:07:36",
+      "date_modified_gmt": "2018-12-13T07:07:36",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/chino-shorts-grey-01.jpeg",
+      "name": "chino-shorts-grey-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Grey"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64224,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999/variations/2002"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999"
+      }]
+    }
+  },
+  {
+    "id": 2001,
+    "date_created": "2018-12-13T07:41:02",
+    "date_created_gmt": "2018-12-13T07:41:02",
+    "date_modified": "2018-12-13T07:41:05",
+    "date_modified_gmt": "2018-12-13T07:41:05",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/chino-shorts/?attribute_pa_color=beige",
+    "sku": "Chino-shorts-beige",
+    "price": "24.95",
+    "regular_price": "24.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1723,
+      "date_created": "2018-12-13T07:07:33",
+      "date_created_gmt": "2018-12-13T07:07:33",
+      "date_modified": "2018-12-13T07:07:33",
+      "date_modified_gmt": "2018-12-13T07:07:33",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/chino-shorts-beige-01.jpeg",
+      "name": "chino-shorts-beige-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Beige"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64218,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999/variations/2001"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999"
+      }]
+    }
+  },
+  {
+    "id": 2000,
+    "date_created": "2018-12-13T07:41:01",
+    "date_created_gmt": "2018-12-13T07:41:01",
+    "date_modified": "2018-12-13T07:41:05",
+    "date_modified_gmt": "2018-12-13T07:41:05",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/chino-shorts/?attribute_pa_color=dark-blue",
+    "sku": "Chino-shorts-dark-blue",
+    "price": "24.95",
+    "regular_price": "24.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1724,
+      "date_created": "2018-12-13T07:07:34",
+      "date_created_gmt": "2018-12-13T07:07:34",
+      "date_modified": "2018-12-13T07:07:34",
+      "date_modified_gmt": "2018-12-13T07:07:34",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/chino-shorts-dark-blue-01.jpeg",
+      "name": "chino-shorts-dark-blue-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark blue"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 64212,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999/variations/2000"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1999"
+      }]
+    }
+  }
+]

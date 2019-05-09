@@ -1,0 +1,115 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@ecom9/env": [
+        "apps/ecom9/src/environments/environment.ts"
+      ],
+      "@ecom9woo/env": [
+        "apps/ecom9woo/src/environments/environment.ts"
+      ],
+      "@ecom9/woomodels": [
+        "libs/woomodels/src/index.ts"
+      ],
+      "@ecom9/woocommerce": [
+        "libs/woocommerce/src/index.ts"
+      ],
+      "@ecom9/shopify": [
+        "libs/shopify/src/index.ts"
+      ],
+      "@ecom9/shareui/welcome": [
+        "libs/shareui/welcome/src/index.ts"
+      ],
+      "@ecom9/shareui/signup": [
+        "libs/shareui/signup/src/index.ts"
+      ],
+      "@ecom9/shareui/login": [
+        "libs/shareui/login/src/index.ts"
+      ],
+      "@ecom9/shareui/forgot": [
+        "libs/shareui/forgot/src/index.ts"
+      ],
+      "@ecom9/models": [
+        "libs/models/src/index.ts"
+      ],
+      "@ecom9/shareui/cart": [
+        "libs/shareui/cart/src/index.ts"
+      ],
+      "@ecom9/shareui/checkout": [
+        "libs/shareui/checkout/src/index.ts"
+      ],
+      "@ecom9/shareui/orders": [
+        "libs/shareui/orders/src/index.ts"
+      ],
+      "@ecom9/shareui/order": [
+        "libs/shareui/order/src/index.ts"
+      ],
+      "@ecom9/shareui/product": [
+        "libs/shareui/product/src/index.ts"
+      ],
+      "@ecom9/shareui/product-box": [
+        "libs/shareui/product-box/src/index.ts"
+      ],
+      "@ecom9/shareui/products": [
+        "libs/shareui/products/src/index.ts"
+      ],
+      "@ecom9/shareui/products-hoz": [
+        "libs/shareui/products-hoz/src/index.ts"
+      ],
+      "@ecom9/shareui/items": [
+        "libs/shareui/items/src/index.ts"
+      ],
+      "@ecom9/shareui/address": [
+        "libs/shareui/address/src/index.ts"
+      ],
+      "@ecom9/shareui/profile": [
+        "libs/shareui/profile/src/index.ts"
+      ],
+      "@ecom9/shareui/categories": [
+        "libs/shareui/categories/src/index.ts"
+      ],
+      "@ecom9/shopifymodels": [
+        "libs/shopifymodels/src/index.ts"
+      ],
+      "@ecom9/nobackend": [
+        "libs/nobackend/src/index.ts"
+      ],
+      "@ecom9/shareui/menu": [
+        "libs/shareui/menu/src/index.ts"
+      ],
+      "@ecom9/shareui/categories-hoz": [
+        "libs/shareui/categories-hoz/src/index.ts"
+      ],
+      "@ecom9/utils": [
+        "libs/utils/src/index.ts"
+      ],
+      "@ecom9/shareui/social": [
+        "libs/shareui/social/src/index.ts"
+      ],
+      "@ecom9/shareui/country": [
+        "libs/shareui/country/src/index.ts"
+      ],
+      "@ecom9/shareui/currency": [
+        "libs/shareui/currency/src/index.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}

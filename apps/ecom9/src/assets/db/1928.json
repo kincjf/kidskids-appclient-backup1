@@ -1,0 +1,147 @@
+[{
+    "id": 1930,
+    "date_created": "2018-12-13T07:40:40",
+    "date_created_gmt": "2018-12-13T07:40:40",
+    "date_modified": "2018-12-13T07:40:44",
+    "date_modified_gmt": "2018-12-13T07:40:44",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/pyjamas/?attribute_pa_color=grey",
+    "sku": "Pyjamas-grey",
+    "price": "35",
+    "regular_price": "35",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 644,
+      "date_created": "2018-12-12T06:30:43",
+      "date_created_gmt": "2018-12-12T06:30:43",
+      "date_modified": "2018-12-12T06:30:43",
+      "date_modified_gmt": "2018-12-12T06:30:43",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/pyjamas-grey-01.jpeg",
+      "name": "pyjamas-grey-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Grey"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 61918,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1928/variations/1930"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1928/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1928"
+      }]
+    }
+  },
+  {
+    "id": 1929,
+    "date_created": "2018-12-13T07:40:40",
+    "date_created_gmt": "2018-12-13T07:40:40",
+    "date_modified": "2018-12-13T07:40:44",
+    "date_modified_gmt": "2018-12-13T07:40:44",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/pyjamas/?attribute_pa_color=dark-blue",
+    "sku": "Pyjamas-dark-blue",
+    "price": "35",
+    "regular_price": "35",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 641,
+      "date_created": "2018-12-12T06:30:31",
+      "date_created_gmt": "2018-12-12T06:30:31",
+      "date_modified": "2018-12-12T06:30:31",
+      "date_modified_gmt": "2018-12-12T06:30:31",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/pyjamas-dark-blue-01.jpeg",
+      "name": "pyjamas-dark-blue-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark blue"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 61912,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1928/variations/1929"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1928/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1928"
+      }]
+    }
+  }
+]

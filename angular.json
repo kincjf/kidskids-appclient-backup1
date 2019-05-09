@@ -1,0 +1,1460 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "",
+  "projects": {
+    "ecom9": {
+      "root": "apps/ecom9/",
+      "sourceRoot": "apps/ecom9/src",
+      "projectType": "application",
+      "prefix": "ecom9",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "apps/ecom9/www",
+            "index": "apps/ecom9/src/index.html",
+            "main": "apps/ecom9/src/main.ts",
+            "polyfills": "apps/ecom9/src/polyfills.ts",
+            "tsConfig": "apps/ecom9/tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "apps/ecom9/src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "**/*.svg",
+                "input": "node_modules/ionicons/dist/ionicons/svg",
+                "output": "./svg"
+              }
+            ],
+            "styles": [
+              {
+                "input": "apps/ecom9/src/theme/variables.scss"
+              },
+              {
+                "input": "apps/ecom9/src/global.scss"
+              }
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/ecom9/src/environments/environment.ts",
+                  "with": "apps/ecom9/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "ecom9:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ecom9:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ecom9:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/ecom9/tsconfig.app.json",
+              "apps/ecom9/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "ionic-cordova-build": {
+          "builder": "@ionic/angular-toolkit:cordova-build",
+          "options": {
+            "browserTarget": "ecom9:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ecom9:build:production"
+            }
+          }
+        },
+        "ionic-cordova-serve": {
+          "builder": "@ionic/angular-toolkit:cordova-serve",
+          "options": {
+            "cordovaBuildTarget": "ecom9:ionic-cordova-build",
+            "devServerTarget": "ecom9:serve"
+          },
+          "configurations": {
+            "production": {
+              "cordovaBuildTarget": "ecom9:ionic-cordova-build:production",
+              "devServerTarget": "ecom9:serve:production"
+            }
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "apps/ecom9/jest.config.js",
+            "tsConfig": "apps/ecom9/tsconfig.spec.json",
+            "setupFile": "apps/ecom9/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "ecom9-e2e": {
+      "root": "apps/ecom9-e2e",
+      "projectType": "application",
+      "prefix": "",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "apps/ecom9-e2e/protractor.conf.js",
+            "devServerTarget": "ecom9:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "ecom9:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "apps/ecom9-e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "ecom9woo": {
+      "root": "apps/ecom9woo/",
+      "sourceRoot": "apps/ecom9woo/src",
+      "projectType": "application",
+      "prefix": "ecom9",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "apps/ecom9woo/www",
+            "index": "apps/ecom9woo/src/index.html",
+            "main": "apps/ecom9woo/src/main.ts",
+            "polyfills": "apps/ecom9woo/src/polyfills.ts",
+            "tsConfig": "apps/ecom9woo/tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "apps/ecom9woo/src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "**/*.svg",
+                "input": "node_modules/ionicons/dist/ionicons/svg",
+                "output": "./svg"
+              }
+            ],
+            "styles": [
+              {
+                "input": "apps/ecom9woo/src/theme/variables.scss"
+              },
+              {
+                "input": "apps/ecom9woo/src/global.scss"
+              }
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/ecom9woo/src/environments/environment.ts",
+                  "with": "apps/ecom9woo/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "ecom9woo:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ecom9woo:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ecom9woo:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/ecom9woo/tsconfig.app.json",
+              "apps/ecom9woo/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "ionic-cordova-build": {
+          "builder": "@ionic/angular-toolkit:cordova-build",
+          "options": {
+            "browserTarget": "ecom9woo:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ecom9woo:build:production"
+            }
+          }
+        },
+        "ionic-cordova-serve": {
+          "builder": "@ionic/angular-toolkit:cordova-serve",
+          "options": {
+            "cordovaBuildTarget": "ecom9woo:ionic-cordova-build",
+            "devServerTarget": "ecom9woo:serve"
+          },
+          "configurations": {
+            "production": {
+              "cordovaBuildTarget": "ecom9woo:ionic-cordova-build:production",
+              "devServerTarget": "ecom9woo:serve:production"
+            }
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "apps/ecom9woo/jest.config.js",
+            "tsConfig": "apps/ecom9woo/tsconfig.spec.json",
+            "setupFile": "apps/ecom9woo/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "ecom9woo-e2e": {
+      "root": "apps/ecom9woo-e2e",
+      "projectType": "application",
+      "prefix": "",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "apps/ecom9woo-e2e/protractor.conf.js",
+            "devServerTarget": "ecom9woo:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "ecom9woo:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "apps/ecom9woo-e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "ecom9shopify": {
+      "root": "apps/ecom9shopify/",
+      "sourceRoot": "apps/ecom9shopify/src",
+      "projectType": "application",
+      "prefix": "ecom9",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "apps/ecom9shopify",
+            "index": "apps/ecom9shopify/src/index.html",
+            "main": "apps/ecom9shopify/src/main.ts",
+            "polyfills": "apps/ecom9shopify/src/polyfills.ts",
+            "tsConfig": "apps/ecom9shopify/tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "apps/ecom9shopify/src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "**/*.svg",
+                "input": "node_modules/ionicons/dist/ionicons/svg",
+                "output": "./svg"
+              }
+            ],
+            "styles": [
+              {
+                "input": "apps/ecom9shopify/src/theme/variables.scss"
+              },
+              {
+                "input": "apps/ecom9shopify/src/global.scss"
+              }
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/ecom9shopify/src/environments/environment.ts",
+                  "with": "apps/ecom9shopify/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "ecom9shopify:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ecom9shopify:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ecom9shopify:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/ecom9shopify/tsconfig.app.json",
+              "apps/ecom9shopify/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "ionic-cordova-build": {
+          "builder": "@ionic/angular-toolkit:cordova-build",
+          "options": {
+            "browserTarget": "ecom9shopify:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ecom9shopify:build:production"
+            }
+          }
+        },
+        "ionic-cordova-serve": {
+          "builder": "@ionic/angular-toolkit:cordova-serve",
+          "options": {
+            "cordovaBuildTarget": "ecom9shopify:ionic-cordova-build",
+            "devServerTarget": "ecom9shopify:serve"
+          },
+          "configurations": {
+            "production": {
+              "cordovaBuildTarget": "ecom9shopify:ionic-cordova-build:production",
+              "devServerTarget": "ecom9shopify:serve:production"
+            }
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "apps/ecom9shopify/jest.config.js",
+            "tsConfig": "apps/ecom9shopify/tsconfig.spec.json",
+            "setupFile": "apps/ecom9shopify/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "ecom9shopify-e2e": {
+      "root": "apps/ecom9shopify-e2e",
+      "projectType": "application",
+      "prefix": "",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "apps/ecom9shopify-e2e/protractor.conf.js",
+            "devServerTarget": "ecom9shopify:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "ecom9shopify:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "apps/ecom9shopify-e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "woomodels": {
+      "root": "libs/woomodels",
+      "sourceRoot": "libs/woomodels/src",
+      "projectType": "library",
+      "prefix": "ecom9",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/woomodels/tsconfig.lib.json",
+              "libs/woomodels/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/woomodels/jest.config.js",
+            "tsConfig": "libs/woomodels/tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "woocommerce": {
+      "root": "libs/woocommerce",
+      "sourceRoot": "libs/woocommerce/src",
+      "projectType": "library",
+      "prefix": "ecom9",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/woocommerce/tsconfig.lib.json",
+              "libs/woocommerce/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/woocommerce/jest.config.js",
+            "tsConfig": "libs/woocommerce/tsconfig.spec.json",
+            "setupFile": "libs/woocommerce/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shopify": {
+      "root": "libs/shopify",
+      "sourceRoot": "libs/shopify/src",
+      "projectType": "library",
+      "prefix": "ecom9",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shopify/tsconfig.lib.json",
+              "libs/shopify/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shopify/jest.config.js",
+            "tsConfig": "libs/shopify/tsconfig.spec.json",
+            "setupFile": "libs/shopify/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-welcome": {
+      "root": "libs/shareui/welcome",
+      "sourceRoot": "libs/shareui/welcome/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/welcome/tsconfig.lib.json",
+              "libs/shareui/welcome/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/welcome/jest.config.js",
+            "tsConfig": "libs/shareui/welcome/tsconfig.spec.json",
+            "setupFile": "libs/shareui/welcome/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-signup": {
+      "root": "libs/shareui/signup",
+      "sourceRoot": "libs/shareui/signup/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/signup/tsconfig.lib.json",
+              "libs/shareui/signup/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/signup/jest.config.js",
+            "tsConfig": "libs/shareui/signup/tsconfig.spec.json",
+            "setupFile": "libs/shareui/signup/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-login": {
+      "root": "libs/shareui/login",
+      "sourceRoot": "libs/shareui/login/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/login/tsconfig.lib.json",
+              "libs/shareui/login/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/login/jest.config.js",
+            "tsConfig": "libs/shareui/login/tsconfig.spec.json",
+            "setupFile": "libs/shareui/login/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-forgot": {
+      "root": "libs/shareui/forgot",
+      "sourceRoot": "libs/shareui/forgot/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/forgot/tsconfig.lib.json",
+              "libs/shareui/forgot/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/forgot/jest.config.js",
+            "tsConfig": "libs/shareui/forgot/tsconfig.spec.json",
+            "setupFile": "libs/shareui/forgot/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "models": {
+      "root": "libs/models",
+      "sourceRoot": "libs/models/src",
+      "projectType": "library",
+      "prefix": "ecom9",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/models/tsconfig.lib.json",
+              "libs/models/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/models/jest.config.js",
+            "tsConfig": "libs/models/tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "shareui-cart": {
+      "root": "libs/shareui/cart",
+      "sourceRoot": "libs/shareui/cart/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/cart/tsconfig.lib.json",
+              "libs/shareui/cart/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/cart/jest.config.js",
+            "tsConfig": "libs/shareui/cart/tsconfig.spec.json",
+            "setupFile": "libs/shareui/cart/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-checkout": {
+      "root": "libs/shareui/checkout",
+      "sourceRoot": "libs/shareui/checkout/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/checkout/tsconfig.lib.json",
+              "libs/shareui/checkout/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/checkout/jest.config.js",
+            "tsConfig": "libs/shareui/checkout/tsconfig.spec.json",
+            "setupFile": "libs/shareui/checkout/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-orders": {
+      "root": "libs/shareui/orders",
+      "sourceRoot": "libs/shareui/orders/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/orders/tsconfig.lib.json",
+              "libs/shareui/orders/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/orders/jest.config.js",
+            "tsConfig": "libs/shareui/orders/tsconfig.spec.json",
+            "setupFile": "libs/shareui/orders/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-order": {
+      "root": "libs/shareui/order",
+      "sourceRoot": "libs/shareui/order/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/order/tsconfig.lib.json",
+              "libs/shareui/order/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/order/jest.config.js",
+            "tsConfig": "libs/shareui/order/tsconfig.spec.json",
+            "setupFile": "libs/shareui/order/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-product": {
+      "root": "libs/shareui/product",
+      "sourceRoot": "libs/shareui/product/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/product/tsconfig.lib.json",
+              "libs/shareui/product/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/product/jest.config.js",
+            "tsConfig": "libs/shareui/product/tsconfig.spec.json",
+            "setupFile": "libs/shareui/product/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-product-box": {
+      "root": "libs/shareui/product-box",
+      "sourceRoot": "libs/shareui/product-box/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/product-box/tsconfig.lib.json",
+              "libs/shareui/product-box/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/product-box/jest.config.js",
+            "tsConfig": "libs/shareui/product-box/tsconfig.spec.json",
+            "setupFile": "libs/shareui/product-box/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-products": {
+      "root": "libs/shareui/products",
+      "sourceRoot": "libs/shareui/products/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/products/tsconfig.lib.json",
+              "libs/shareui/products/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/products/jest.config.js",
+            "tsConfig": "libs/shareui/products/tsconfig.spec.json",
+            "setupFile": "libs/shareui/products/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-products-hoz": {
+      "root": "libs/shareui/products-hoz",
+      "sourceRoot": "libs/shareui/products-hoz/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/products-hoz/tsconfig.lib.json",
+              "libs/shareui/products-hoz/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/products-hoz/jest.config.js",
+            "tsConfig": "libs/shareui/products-hoz/tsconfig.spec.json",
+            "setupFile": "libs/shareui/products-hoz/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-items": {
+      "root": "libs/shareui/items",
+      "sourceRoot": "libs/shareui/items/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/items/tsconfig.lib.json",
+              "libs/shareui/items/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/items/jest.config.js",
+            "tsConfig": "libs/shareui/items/tsconfig.spec.json",
+            "setupFile": "libs/shareui/items/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-address": {
+      "root": "libs/shareui/address",
+      "sourceRoot": "libs/shareui/address/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/address/tsconfig.lib.json",
+              "libs/shareui/address/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/address/jest.config.js",
+            "tsConfig": "libs/shareui/address/tsconfig.spec.json",
+            "setupFile": "libs/shareui/address/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-profile": {
+      "root": "libs/shareui/profile",
+      "sourceRoot": "libs/shareui/profile/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/profile/tsconfig.lib.json",
+              "libs/shareui/profile/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/profile/jest.config.js",
+            "tsConfig": "libs/shareui/profile/tsconfig.spec.json",
+            "setupFile": "libs/shareui/profile/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-categories": {
+      "root": "libs/shareui/categories",
+      "sourceRoot": "libs/shareui/categories/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/categories/tsconfig.lib.json",
+              "libs/shareui/categories/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/categories/jest.config.js",
+            "tsConfig": "libs/shareui/categories/tsconfig.spec.json",
+            "setupFile": "libs/shareui/categories/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-settings": {
+      "root": "libs/shareui/settings",
+      "sourceRoot": "libs/shareui/settings/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/settings/tsconfig.lib.json",
+              "libs/shareui/settings/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/settings/jest.config.js",
+            "tsConfig": "libs/shareui/settings/tsconfig.spec.json",
+            "setupFile": "libs/shareui/settings/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shopifymodels": {
+      "root": "libs/shopifymodels",
+      "sourceRoot": "libs/shopifymodels/src",
+      "projectType": "library",
+      "prefix": "ecom9",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shopifymodels/tsconfig.lib.json",
+              "libs/shopifymodels/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shopifymodels/jest.config.js",
+            "tsConfig": "libs/shopifymodels/tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "nobackend": {
+      "root": "libs/nobackend",
+      "sourceRoot": "libs/nobackend/src",
+      "projectType": "library",
+      "prefix": "ecom9",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/nobackend/tsconfig.lib.json",
+              "libs/nobackend/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/nobackend/jest.config.js",
+            "tsConfig": "libs/nobackend/tsconfig.spec.json",
+            "setupFile": "libs/nobackend/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-menu": {
+      "root": "libs/shareui/menu",
+      "sourceRoot": "libs/shareui/menu/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/menu/tsconfig.lib.json",
+              "libs/shareui/menu/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/menu/jest.config.js",
+            "tsConfig": "libs/shareui/menu/tsconfig.spec.json",
+            "setupFile": "libs/shareui/menu/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-categories-hoz": {
+      "root": "libs/shareui/categories-hoz",
+      "sourceRoot": "libs/shareui/categories-hoz/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/categories-hoz/tsconfig.lib.json",
+              "libs/shareui/categories-hoz/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/categories-hoz/jest.config.js",
+            "tsConfig": "libs/shareui/categories-hoz/tsconfig.spec.json",
+            "setupFile": "libs/shareui/categories-hoz/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "utils": {
+      "root": "libs/utils",
+      "sourceRoot": "libs/utils/src",
+      "projectType": "library",
+      "prefix": "ecom9",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/utils/tsconfig.lib.json",
+              "libs/utils/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/utils/jest.config.js",
+            "tsConfig": "libs/utils/tsconfig.spec.json"
+          }
+        }
+      }
+    },
+    "shareui-social": {
+      "root": "libs/shareui/social",
+      "sourceRoot": "libs/shareui/social/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/social/tsconfig.lib.json",
+              "libs/shareui/social/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/social/jest.config.js",
+            "tsConfig": "libs/shareui/social/tsconfig.spec.json",
+            "setupFile": "libs/shareui/social/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-country": {
+      "root": "libs/shareui/country",
+      "sourceRoot": "libs/shareui/country/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/country/tsconfig.lib.json",
+              "libs/shareui/country/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/country/jest.config.js",
+            "tsConfig": "libs/shareui/country/tsconfig.spec.json",
+            "setupFile": "libs/shareui/country/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "shareui-currency": {
+      "root": "libs/shareui/currency",
+      "sourceRoot": "libs/shareui/currency/src",
+      "projectType": "library",
+      "prefix": "xui",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/shareui/currency/tsconfig.lib.json",
+              "libs/shareui/currency/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "libs/shareui/currency/jest.config.js",
+            "tsConfig": "libs/shareui/currency/tsconfig.spec.json",
+            "setupFile": "libs/shareui/currency/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "ecom9woox": {
+      "root": "apps/ecom9woox/",
+      "sourceRoot": "apps/ecom9woox/src",
+      "projectType": "application",
+      "prefix": "ecom9",
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "apps/ecom9woox/www",
+            "index": "apps/ecom9woox/src/index.html",
+            "main": "apps/ecom9woox/src/main.ts",
+            "polyfills": "apps/ecom9woox/src/polyfills.ts",
+            "tsConfig": "apps/ecom9woox/tsconfig.app.json",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "apps/ecom9woox/src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "**/*.svg",
+                "input": "node_modules/ionicons/dist/ionicons/svg",
+                "output": "./svg"
+              }
+            ],
+            "styles": [
+              {
+                "input": "apps/ecom9woox/src/theme/variables.scss"
+              },
+              {
+                "input": "apps/ecom9woox/src/global.scss"
+              }
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "apps/ecom9woox/src/environments/environment.ts",
+                  "with": "apps/ecom9woox/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "ecom9woox:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ecom9woox:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ecom9woox:build"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "apps/ecom9woox/tsconfig.app.json",
+              "apps/ecom9woox/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "ionic-cordova-build": {
+          "builder": "@ionic/angular-toolkit:cordova-build",
+          "options": {
+            "browserTarget": "ecom9woox:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "ecom9woox:build:production"
+            }
+          }
+        },
+        "ionic-cordova-serve": {
+          "builder": "@ionic/angular-toolkit:cordova-serve",
+          "options": {
+            "cordovaBuildTarget": "ecom9woox:ionic-cordova-build",
+            "devServerTarget": "ecom9woox:serve"
+          },
+          "configurations": {
+            "production": {
+              "cordovaBuildTarget": "ecom9woox:ionic-cordova-build:production",
+              "devServerTarget": "ecom9woox:serve:production"
+            }
+          }
+        },
+        "test": {
+          "builder": "@nrwl/builders:jest",
+          "options": {
+            "jestConfig": "apps/ecom9woox/jest.config.js",
+            "tsConfig": "apps/ecom9woox/tsconfig.spec.json",
+            "setupFile": "apps/ecom9woox/src/test-setup.ts"
+          }
+        }
+      }
+    },
+    "ecom9woox-e2e": {
+      "root": "apps/ecom9woox-e2e",
+      "projectType": "application",
+      "prefix": "",
+      "architect": {
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "apps/ecom9woox-e2e/protractor.conf.js",
+            "devServerTarget": "ecom9woox:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "ecom9woox:serve:production"
+            }
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": "apps/ecom9woox-e2e/tsconfig.e2e.json",
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "warnings": {
+      "typescriptMismatch": false,
+      "versionMismatch": false
+    },
+    "defaultCollection": "@nrwl/schematics",
+    "packageManager": "npm"
+  },
+  "defaultProject": "ecom9"
+}

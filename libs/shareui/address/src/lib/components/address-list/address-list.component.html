@@ -1,0 +1,10 @@
+<ion-list #slidingList>
+  <xui-address-item *ngFor="let address of addresses" [address]="address" (select)="onSelect($event)" (remove)="onRemove($event)"
+    (default)="onDefault($event)"></xui-address-item>
+</ion-list>
+
+<div *ngIf="addresses">
+  <div *ngIf="addresses.length === 0" class="no-address">
+    <span>No address found</span>
+  </div>
+</div>

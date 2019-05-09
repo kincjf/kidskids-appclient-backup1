@@ -1,0 +1,19 @@
+<div *ngIf="reviews" class="reviews-wrapper">
+  <div class="loading">
+    <ion-spinner *ngIf="loading" name="lines"></ion-spinner>
+  </div>
+  <div *ngIf="reviews.length === 0 && !loading" class="no-reviews" (click)="goReview()">
+    Not enought ratings
+  </div>
+  <div *ngIf="reviews.length > 0 && !loading" class="rating-reviews" (click)="goReview()">
+    <div class="stars">
+      <ion-icon *ngFor="let star of getStars" name="star" [color]="star === 1 ? 'secondary' : 'light'"></ion-icon>
+    </div>
+    <div *ngIf="reviews.length === 1" class="number">
+      <span>{{reviews.length}}</span>Rating and Review
+    </div>
+    <div *ngIf="reviews.length > 1" class="number">
+      <span>{{reviews.length}}</span>Ratings and Reviews
+    </div>
+  </div>
+</div>

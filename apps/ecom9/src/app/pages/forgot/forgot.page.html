@@ -1,0 +1,11 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/login"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <xui-forgot-form (submitted)="onSubmit()" (register)="onRegister()"></xui-forgot-form>
+</ion-content>

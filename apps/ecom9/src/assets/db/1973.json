@@ -1,0 +1,220 @@
+[{
+    "id": 1976,
+    "date_created": "2018-12-13T07:40:52",
+    "date_created_gmt": "2018-12-13T07:40:52",
+    "date_modified": "2018-12-13T07:40:57",
+    "date_modified_gmt": "2018-12-13T07:40:57",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/hooded-top-with-a-motif/?attribute_pa_color=turquoise-boston",
+    "sku": "Hooded-top-with-a-motif-turquoise-boston",
+    "price": "34.95",
+    "regular_price": "34.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1792,
+      "date_created": "2018-12-13T07:09:47",
+      "date_created_gmt": "2018-12-13T07:09:47",
+      "date_modified": "2018-12-13T07:09:47",
+      "date_modified_gmt": "2018-12-13T07:09:47",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/hooded-top-with-a-motif-turquoise-boston-01.jpeg",
+      "name": "hooded-top-with-a-motif-turquoise-boston-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Turquoise/Boston"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63242,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973/variations/1976"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973"
+      }]
+    }
+  },
+  {
+    "id": 1975,
+    "date_created": "2018-12-13T07:40:52",
+    "date_created_gmt": "2018-12-13T07:40:52",
+    "date_modified": "2018-12-13T07:40:57",
+    "date_modified_gmt": "2018-12-13T07:40:57",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/hooded-top-with-a-motif/?attribute_pa_color=dark-blue-stars",
+    "sku": "Hooded-top-with-a-motif-dark-blue-stars",
+    "price": "34.95",
+    "regular_price": "34.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1789,
+      "date_created": "2018-12-13T07:09:45",
+      "date_created_gmt": "2018-12-13T07:09:45",
+      "date_modified": "2018-12-13T07:09:45",
+      "date_modified_gmt": "2018-12-13T07:09:45",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/hooded-top-with-a-motif-dark-blue-stars-01.jpeg",
+      "name": "hooded-top-with-a-motif-dark-blue-stars-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark Blue/Stars"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63236,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973/variations/1975"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973"
+      }]
+    }
+  },
+  {
+    "id": 1974,
+    "date_created": "2018-12-13T07:40:52",
+    "date_created_gmt": "2018-12-13T07:40:52",
+    "date_modified": "2018-12-13T07:40:57",
+    "date_modified_gmt": "2018-12-13T07:40:57",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/hooded-top-with-a-motif/?attribute_pa_color=white-new-york",
+    "sku": "Hooded-top-with-a-motif-white-new-york",
+    "price": "34.95",
+    "regular_price": "34.95",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 1785,
+      "date_created": "2018-12-13T07:09:40",
+      "date_created_gmt": "2018-12-13T07:09:40",
+      "date_modified": "2018-12-13T07:09:40",
+      "date_modified_gmt": "2018-12-13T07:09:40",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/hooded-top-with-a-motif-white-new-york-01.jpeg",
+      "name": "hooded-top-with-a-motif-white-new-york-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White/New York"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63230,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973/variations/1974"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1973"
+      }]
+    }
+  }
+]

@@ -1,0 +1,293 @@
+[{
+    "id": 1838,
+    "date_created": "2018-12-13T07:39:55",
+    "date_created_gmt": "2018-12-13T07:39:55",
+    "date_modified": "2018-12-13T07:40:00",
+    "date_modified_gmt": "2018-12-13T07:40:00",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/jersey-t-shirt/?attribute_pa_color=black",
+    "sku": "Jersey-t-shirt-black",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 247,
+      "date_created": "2018-12-11T08:23:18",
+      "date_created_gmt": "2018-12-11T08:23:18",
+      "date_modified": "2018-12-11T08:23:18",
+      "date_modified_gmt": "2018-12-11T08:23:18",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jersey-t-shirt-black-01.jpeg",
+      "name": "jersey-t-shirt-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 58216,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834/variations/1838"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834"
+      }]
+    }
+  },
+  {
+    "id": 1837,
+    "date_created": "2018-12-13T07:39:55",
+    "date_created_gmt": "2018-12-13T07:39:55",
+    "date_modified": "2018-12-13T07:39:59",
+    "date_modified_gmt": "2018-12-13T07:39:59",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/jersey-t-shirt/?attribute_pa_color=white",
+    "sku": "Jersey-t-shirt-white",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 244,
+      "date_created": "2018-12-11T08:23:14",
+      "date_created_gmt": "2018-12-11T08:23:14",
+      "date_modified": "2018-12-11T08:23:14",
+      "date_modified_gmt": "2018-12-11T08:23:14",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jersey-t-shirt-white-01.jpeg",
+      "name": "jersey-t-shirt-white-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 58210,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834/variations/1837"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834"
+      }]
+    }
+  },
+  {
+    "id": 1836,
+    "date_created": "2018-12-13T07:39:55",
+    "date_created_gmt": "2018-12-13T07:39:55",
+    "date_modified": "2018-12-13T07:39:59",
+    "date_modified_gmt": "2018-12-13T07:39:59",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/jersey-t-shirt/?attribute_pa_color=white-spotted",
+    "sku": "Jersey-t-shirt-white-spotted",
+    "price": "25",
+    "regular_price": "25",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "outofstock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 240,
+      "date_created": "2018-12-11T08:23:08",
+      "date_created_gmt": "2018-12-11T08:23:08",
+      "date_modified": "2018-12-11T08:23:08",
+      "date_modified_gmt": "2018-12-11T08:23:08",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jersey-t-shirt-white-spotted-01.jpeg",
+      "name": "jersey-t-shirt-white-spotted-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White Spotted"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 58204,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834/variations/1836"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834"
+      }]
+    }
+  },
+  {
+    "id": 1835,
+    "date_created": "2018-12-13T07:39:55",
+    "date_created_gmt": "2018-12-13T07:39:55",
+    "date_modified": "2018-12-13T07:39:59",
+    "date_modified_gmt": "2018-12-13T07:39:59",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/jersey-t-shirt/?attribute_pa_color=white-back-striped",
+    "sku": "Jersey-t-shirt-white-back-striped",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 236,
+      "date_created": "2018-12-11T08:23:02",
+      "date_created_gmt": "2018-12-11T08:23:02",
+      "date_modified": "2018-12-11T08:23:02",
+      "date_modified_gmt": "2018-12-11T08:23:02",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jersey-t-shirt-white-black-striped-01.jpeg",
+      "name": "jersey-t-shirt-white-black-striped-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White Back Striped"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 58198,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834/variations/1835"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1834"
+      }]
+    }
+  }
+]

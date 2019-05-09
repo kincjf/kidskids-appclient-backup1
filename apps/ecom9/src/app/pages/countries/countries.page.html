@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/settings"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Countries</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <xui-country-list [countries]="countries$ | async" (select)="onSelect($event)">
+  </xui-country-list>
+</ion-content>

@@ -1,0 +1,88 @@
+<div *ngIf="product" class="product-container">
+  <div class="product-images">
+    <ion-slides #slider pager="true">
+      <ion-slide *ngFor="let image of images">
+        <img [src]="getImage(image.src)">
+      </ion-slide>
+    </ion-slides>
+  </div>
+  <div class="product-info">
+    <div class="product-name">
+      {{product.name}}
+    </div>
+    <div class="product-price">
+      <span class="money" [innerHTML]="currency.symbol"></span> {{product.price}}
+      <span class="new" *ngIf="isNew">
+        <ion-badge color="secondary">New</ion-badge>
+      </span>
+      <div class="wishlist">
+        <ion-button fill="clear" (click)="manageWishlist()">
+          <ion-icon slot="icon-only" [color]="getInWishList()" name="heart"></ion-icon>
+        </ion-button>
+      </div>
+    </div>
+    <div class="product-reviews">
+      <xui-rating [reviews]="reviews" [loading]="reviewsLoading" (select)="selectReview()"></xui-rating>
+    </div>
+  </div>
+  <div *ngIf="product.type !== 'simple'" class="product-info2">
+    <!-- Place for variant-->
+    <div class="variant-loading">
+      <ion-spinner *ngIf="!selectedVariant" name="lines"></ion-spinner>
+    </div>
+    <div *ngIf="selectedVariant" class="product-variant">
+      <span *ngFor="let attr of selectedVariant.attributes"><span class="attribute">{{attr.name}}:</span>
+        {{attr.option}}</span>
+    </div>
+    <div *ngIf="selectedVariant" class="product-variants">
+      <div *ngFor="let variant of variants" class="variant-wrapper" (click)="selectVariant(variant)">
+        <div *ngIf="selectedVariant && variant" class="variant-box" [class.selected]="selectedVariant.id === variant.id">
+          <div class="image-wrapper">
+            <img [src]="getVariantImage(variant.image.src)">
+          </div>
+
+          <div class="variant-name">
+            {{variant.attributes[0].option}}
+          </div>
+          <div *ngIf="variant" class="variant-info">
+            <div class="variant-status instock" *ngIf="variant.stock_status === 'instock'">In Stock</div>
+            <div class="variant-status" *ngIf="variant.stock_status !== 'instock'">Out of Stock</div>
+            <div class="variant-price">
+              <span class="money" [innerHTML]="currency.symbol"></span>
+              {{variant.price}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="product-info2">
+    <div class="add-2-cart-wrapper">
+      <div class="quantity-box-wrapper">
+        <ion-button fill="clear" (click)="dec()">
+          <ion-icon slot="icon-only" name="remove"></ion-icon>
+        </ion-button>
+        <div class="number">{{quantity}}</div>
+        <ion-button fill="clear" (click)="inc()">
+          <ion-icon slot="icon-only" name="add"></ion-icon>
+        </ion-button>
+      </div>
+
+      <div class="add-2-cart">
+        <ion-button expand="full" fill="solid" (click)="add2Cart()">
+          Add To Cart
+        </ion-button>
+      </div>
+    </div>
+  </div>
+  <div class="product-info2">
+    <div class="product-description">
+      <div class="title">
+        Description
+      </div>
+      <div class="content" [innerHTML]="product.description || product.short_description">
+
+      </div>
+    </div>
+  </div>
+</div>

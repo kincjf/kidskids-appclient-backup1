@@ -1,0 +1,8 @@
+<div class="related-product-wrapper" *ngIf="!loading && products">
+  <div *ngIf="products.length > 0" class="related-products">
+    <xui-product-item *ngFor="let product of products" [imageSize]="imageSize" [product]="product" [currency]="currency" (select)="onSelect($event)"></xui-product-item>
+  </div>
+</div>
+<div class="no-product" *ngIf="loading">
+  <ion-spinner name="lines"></ion-spinner>
+</div>

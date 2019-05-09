@@ -1,0 +1,147 @@
+[{
+    "id": 1845,
+    "date_created": "2018-12-13T07:39:56",
+    "date_created_gmt": "2018-12-13T07:39:56",
+    "date_modified": "2018-12-13T07:40:00",
+    "date_modified_gmt": "2018-12-13T07:40:00",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/transparent-pouch-bag/?attribute_pa_color=blue-floral",
+    "sku": "Transparent-pouch-bag-Blue-Floral",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 420,
+      "date_created": "2018-12-11T13:53:37",
+      "date_created_gmt": "2018-12-11T13:53:37",
+      "date_modified": "2018-12-11T13:53:37",
+      "date_modified_gmt": "2018-12-11T13:53:37",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/transparent-pouch-bag-blue-floral-01.jpeg",
+      "name": "transparent-pouch-bag-blue-floral-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Blue/Floral"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 58252,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1843/variations/1845"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1843/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1843"
+      }]
+    }
+  },
+  {
+    "id": 1844,
+    "date_created": "2018-12-13T07:39:56",
+    "date_created_gmt": "2018-12-13T07:39:56",
+    "date_modified": "2018-12-13T07:40:00",
+    "date_modified_gmt": "2018-12-13T07:40:00",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/transparent-pouch-bag/?attribute_pa_color=pink-patterned",
+    "sku": "Transparent-pouch-bag-Pink-Patterned",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "outofstock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 422,
+      "date_created": "2018-12-11T13:53:47",
+      "date_created_gmt": "2018-12-11T13:53:47",
+      "date_modified": "2018-12-11T13:53:47",
+      "date_modified_gmt": "2018-12-11T13:53:47",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/transparent-pouch-bag-pink-patterned-01.jpeg",
+      "name": "transparent-pouch-bag-pink-patterned-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Pink/Patterned"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 58247,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1843/variations/1844"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1843/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1843"
+      }]
+    }
+  }
+]

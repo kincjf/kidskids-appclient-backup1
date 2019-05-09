@@ -1,0 +1,14 @@
+<div *ngIf="order" class="order">
+  <div>
+    <b>Order No.</b> {{order.id}}
+  </div>
+  <div>
+    <b>Order Date:</b> {{order.date_created | date: 'dd MMM yyyy'}}
+  </div>
+  <div>
+    <b>Total:</b> <span [innerHTML]="currency.symbol"></span>{{order.total | number: '1.0-2'}}
+  </div>
+</div>
+<xui-address-list *ngIf="order" [addresses]="[order.billing, order.shipping]"></xui-address-list>
+
+<xui-item-list [products]="products" [currency]="currency" [lockQuantity]="true" [lockRemove]="true" (clickItem)="goProduct($event)"></xui-item-list>

@@ -1,0 +1,55 @@
+.item {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-family: Ubuntu-Regular;
+  min-height: 80px;
+  --ion-item-border-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  ion-item-option {
+    --width: 80px;
+
+    .button {
+      width: 80px;
+      --width: 80px;
+    }
+  }
+
+  ion-item-option:last-child {
+    --width: 80px;
+
+    .button {
+      width: 80px;
+      --width: 80px;
+    }
+  }
+
+  .quantity-wrapper {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.88rem;
+
+    div {
+      flex: 1;
+    }
+
+    ion-button {
+      flex: 1;
+
+      ion-icon {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.item-inner {
+  --ion-item-border-color: transparent;
+}

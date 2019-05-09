@@ -1,0 +1,18 @@
+<ion-item-sliding *ngIf="address">
+  <ion-item *ngIf="address.first_name && address.last_name" button (click)="selectAddress()">
+    <ion-label>
+      <h3>{{address.address_1}}</h3>
+      <p>{{address.city}}, {{address.country}}</p>
+      <p>{{address.address_2}}</p>
+    </ion-label>
+    <p *ngIf="address.default" class="processing">Default</p>
+  </ion-item>
+  <ion-item-options side="end">
+    <ion-item-option color="light" (click)="makeDefault()">
+      Default
+    </ion-item-option>
+    <ion-item-option color="danger" (click)="removeAddress()">
+      <ion-icon name="trash"></ion-icon> Remove
+    </ion-item-option>
+  </ion-item-options>
+</ion-item-sliding>

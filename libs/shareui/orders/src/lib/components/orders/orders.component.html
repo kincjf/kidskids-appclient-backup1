@@ -1,0 +1,16 @@
+<ion-list>
+  <ion-item *ngFor="let order of orders" (click)="selectOrder(order)">
+    <ion-label>
+      <h3>No. {{order.id}}</h3>
+      <h3>Date: {{order.date_created | date: 'dd MMM yyyy'}}</h3>
+      <p>Total: <span [innerHTML]="currency.symbol"></span> {{order.total | number: '1.0-2'}}</p>
+    </ion-label>
+    <p class="processing">Processing</p>
+  </ion-item>
+</ion-list>
+<div class="no-order" *ngIf="loading">
+    <ion-spinner name="lines"></ion-spinner>
+  </div>
+<div class="no-order" *ngIf="!loading && orders">
+  <span *ngIf="orders.length === 0">No orders found</span>
+</div>

@@ -1,0 +1,293 @@
+[{
+    "id": 1891,
+    "date_created": "2018-12-13T07:40:21",
+    "date_created_gmt": "2018-12-13T07:40:21",
+    "date_modified": "2018-12-13T07:40:25",
+    "date_modified_gmt": "2018-12-13T07:40:25",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/round-neck-t-shirt-slim-fit/?attribute_pa_color=burgundy",
+    "sku": "Round-neck-t-shirt-slim-fit-burgundy",
+    "price": "9.5",
+    "regular_price": "9.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 772,
+      "date_created": "2018-12-12T06:36:40",
+      "date_created_gmt": "2018-12-12T06:36:40",
+      "date_modified": "2018-12-12T06:36:40",
+      "date_modified_gmt": "2018-12-12T06:36:40",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/round-neck-t-shirt-slim-fit-burgundy-01.jpeg",
+      "name": "round-neck-t-shirt-slim-fit-burgundy-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Burgundy"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60629,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887/variations/1891"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887"
+      }]
+    }
+  },
+  {
+    "id": 1890,
+    "date_created": "2018-12-13T07:40:21",
+    "date_created_gmt": "2018-12-13T07:40:21",
+    "date_modified": "2018-12-13T07:40:25",
+    "date_modified_gmt": "2018-12-13T07:40:25",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/round-neck-t-shirt-slim-fit/?attribute_pa_color=white",
+    "sku": "Round-neck-t-shirt-slim-fit-white",
+    "price": "9.5",
+    "regular_price": "9.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 777,
+      "date_created": "2018-12-12T06:36:43",
+      "date_created_gmt": "2018-12-12T06:36:43",
+      "date_modified": "2018-12-12T06:36:43",
+      "date_modified_gmt": "2018-12-12T06:36:43",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/round-neck-t-shirt-slim-fit-white-01.jpeg",
+      "name": "round-neck-t-shirt-slim-fit-white-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 60623,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887/variations/1890"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887"
+      }]
+    }
+  },
+  {
+    "id": 1889,
+    "date_created": "2018-12-13T07:40:07",
+    "date_created_gmt": "2018-12-13T07:40:07",
+    "date_modified": "2018-12-13T07:40:12",
+    "date_modified_gmt": "2018-12-13T07:40:12",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/round-neck-t-shirt-slim-fit/?attribute_pa_color=black",
+    "sku": "Round-neck-t-shirt-slim-fit-black",
+    "price": "9.5",
+    "regular_price": "9.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 781,
+      "date_created": "2018-12-12T06:36:46",
+      "date_created_gmt": "2018-12-12T06:36:46",
+      "date_modified": "2018-12-12T06:36:46",
+      "date_modified_gmt": "2018-12-12T06:36:46",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/round-neck-t-shirt-slim-fit-black-01.jpeg",
+      "name": "round-neck-t-shirt-slim-fit-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 59552,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887/variations/1889"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887"
+      }]
+    }
+  },
+  {
+    "id": 1888,
+    "date_created": "2018-12-13T07:40:07",
+    "date_created_gmt": "2018-12-13T07:40:07",
+    "date_modified": "2018-12-13T07:40:11",
+    "date_modified_gmt": "2018-12-13T07:40:11",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/round-neck-t-shirt-slim-fit/?attribute_pa_color=khaki-green-marl",
+    "sku": "Round-neck-t-shirt-slim-fit-khaki-green-marl",
+    "price": "9.5",
+    "regular_price": "9.5",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 785,
+      "date_created": "2018-12-12T06:36:48",
+      "date_created_gmt": "2018-12-12T06:36:48",
+      "date_modified": "2018-12-12T06:36:48",
+      "date_modified_gmt": "2018-12-12T06:36:48",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/round-neck-t-shirt-slim-fit-khaki-green-marl-01.jpeg",
+      "name": "round-neck-t-shirt-slim-fit-khaki-green-marl-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Khaki green marl"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 59546,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887/variations/1888"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1887"
+      }]
+    }
+  }
+]

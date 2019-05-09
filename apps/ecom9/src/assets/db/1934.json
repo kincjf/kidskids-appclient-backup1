@@ -1,0 +1,147 @@
+[{
+    "id": 1936,
+    "date_created": "2018-12-13T07:40:41",
+    "date_created_gmt": "2018-12-13T07:40:41",
+    "date_modified": "2018-12-13T07:40:45",
+    "date_modified_gmt": "2018-12-13T07:40:45",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/boots/?attribute_pa_color=black",
+    "sku": "Boots-black",
+    "price": "69",
+    "regular_price": "69",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 624,
+      "date_created": "2018-12-12T06:29:50",
+      "date_created_gmt": "2018-12-12T06:29:50",
+      "date_modified": "2018-12-12T06:29:50",
+      "date_modified_gmt": "2018-12-12T06:29:50",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/boots-black-01.jpeg",
+      "name": "boots-black-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Black"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 61952,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1934/variations/1936"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1934/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1934"
+      }]
+    }
+  },
+  {
+    "id": 1935,
+    "date_created": "2018-12-13T07:40:41",
+    "date_created_gmt": "2018-12-13T07:40:41",
+    "date_modified": "2018-12-13T07:40:45",
+    "date_modified_gmt": "2018-12-13T07:40:45",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/boots/?attribute_pa_color=ochre",
+    "sku": "Boots-ochre",
+    "price": "69",
+    "regular_price": "69",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 621,
+      "date_created": "2018-12-12T06:29:45",
+      "date_created_gmt": "2018-12-12T06:29:45",
+      "date_modified": "2018-12-12T06:29:45",
+      "date_modified_gmt": "2018-12-12T06:29:45",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/boots-ochre-01.jpeg",
+      "name": "boots-ochre-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Ochre"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 61946,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1934/variations/1935"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1934/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1934"
+      }]
+    }
+  }
+]

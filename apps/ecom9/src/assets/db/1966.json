@@ -1,0 +1,220 @@
+[{
+    "id": 1969,
+    "date_created": "2018-12-13T07:40:51",
+    "date_created_gmt": "2018-12-13T07:40:51",
+    "date_modified": "2018-12-13T07:40:56",
+    "date_modified_gmt": "2018-12-13T07:40:56",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/cotton-shirt/?attribute_pa_color=light-blue",
+    "sku": "Cotton-shirt-light-blue",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 969,
+      "date_created": "2018-12-12T08:24:23",
+      "date_created_gmt": "2018-12-12T08:24:23",
+      "date_modified": "2018-12-12T08:24:23",
+      "date_modified_gmt": "2018-12-12T08:24:23",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/cotton-shirt-light-blue-01.jpeg",
+      "name": "cotton-shirt-light-blue-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Light blue"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63203,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966/variations/1969"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966"
+      }]
+    }
+  },
+  {
+    "id": 1968,
+    "date_created": "2018-12-13T07:40:51",
+    "date_created_gmt": "2018-12-13T07:40:51",
+    "date_modified": "2018-12-13T07:40:56",
+    "date_modified_gmt": "2018-12-13T07:40:56",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/cotton-shirt/?attribute_pa_color=dark-blue",
+    "sku": "Cotton-shirt-dark-blue",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 965,
+      "date_created": "2018-12-12T08:24:12",
+      "date_created_gmt": "2018-12-12T08:24:12",
+      "date_modified": "2018-12-12T08:24:12",
+      "date_modified_gmt": "2018-12-12T08:24:12",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/cotton-shirt-dark-blue-01.jpeg",
+      "name": "cotton-shirt-dark-blue-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "Dark blue"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63197,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966/variations/1968"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966"
+      }]
+    }
+  },
+  {
+    "id": 1967,
+    "date_created": "2018-12-13T07:40:51",
+    "date_created_gmt": "2018-12-13T07:40:51",
+    "date_modified": "2018-12-13T07:40:56",
+    "date_modified_gmt": "2018-12-13T07:40:56",
+    "description": "",
+    "permalink": "https://woodemo.aiti.com.vn/product/cotton-shirt/?attribute_pa_color=white",
+    "sku": "Cotton-shirt-white",
+    "price": "20",
+    "regular_price": "20",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "status": "publish",
+    "purchasable": true,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": 0,
+    "download_expiry": 0,
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "stock_status": "instock",
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "image": {
+      "id": 961,
+      "date_created": "2018-12-12T08:24:08",
+      "date_created_gmt": "2018-12-12T08:24:08",
+      "date_modified": "2018-12-12T08:24:08",
+      "date_modified_gmt": "2018-12-12T08:24:08",
+      "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/cotton-shirt-white-01.jpeg",
+      "name": "cotton-shirt-white-01",
+      "alt": ""
+    },
+    "attributes": [{
+      "id": 1,
+      "name": "Color",
+      "option": "White"
+    }],
+    "menu_order": 0,
+    "meta_data": [{
+      "id": 63191,
+      "key": "_wpcom_is_markdown",
+      "value": ""
+    }],
+    "_links": {
+      "self": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966/variations/1967"
+      }],
+      "collection": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966/variations"
+      }],
+      "up": [{
+        "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1966"
+      }]
+    }
+  }
+]

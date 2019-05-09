@@ -1,0 +1,334 @@
+[
+    {
+        "id": 1808,
+        "date_created": "2018-12-13T07:39:39",
+        "date_created_gmt": "2018-12-13T07:39:39",
+        "date_modified": "2018-12-13T07:39:43",
+        "date_modified_gmt": "2018-12-13T07:39:43",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/jersey-polo-neck-top/?attribute_pa_color=black-white-striped",
+        "sku": "Jersey-polo-neck-top-black-white-striped",
+        "price": "20",
+        "regular_price": "20",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 300,
+            "date_created": "2018-12-11T08:25:00",
+            "date_created_gmt": "2018-12-11T08:25:00",
+            "date_modified": "2018-12-11T08:25:00",
+            "date_modified_gmt": "2018-12-11T08:25:00",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jersey-polo-neck-top-black-white-striped.jpeg",
+            "name": "jersey-polo-neck-top-black-white-striped",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Black/White striped"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56963,
+                "key": "_wpcom_is_markdown",
+                "value": "1"
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804/variations/1808"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1807,
+        "date_created": "2018-12-13T07:39:39",
+        "date_created_gmt": "2018-12-13T07:39:39",
+        "date_modified": "2018-12-13T07:39:42",
+        "date_modified_gmt": "2018-12-13T07:39:42",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/jersey-polo-neck-top/?attribute_pa_color=black",
+        "sku": "Jersey-polo-neck-top-black",
+        "price": "19",
+        "regular_price": "19",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "outofstock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 299,
+            "date_created": "2018-12-11T08:24:57",
+            "date_created_gmt": "2018-12-11T08:24:57",
+            "date_modified": "2018-12-11T08:24:57",
+            "date_modified_gmt": "2018-12-11T08:24:57",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jersey-polo-neck-top-black.jpeg",
+            "name": "jersey-polo-neck-top-black",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Black"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56957,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804/variations/1807"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1806,
+        "date_created": "2018-12-13T07:39:39",
+        "date_created_gmt": "2018-12-13T07:39:39",
+        "date_modified": "2018-12-13T07:39:42",
+        "date_modified_gmt": "2018-12-13T07:39:42",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/jersey-polo-neck-top/?attribute_pa_color=dark-red",
+        "sku": "Jersey-polo-neck-top-dark-red",
+        "price": "25",
+        "regular_price": "25",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 301,
+            "date_created": "2018-12-11T08:25:02",
+            "date_created_gmt": "2018-12-11T08:25:02",
+            "date_modified": "2018-12-11T08:25:02",
+            "date_modified_gmt": "2018-12-11T08:25:02",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jersey-polo-neck-top-dark-red.jpeg",
+            "name": "jersey-polo-neck-top-dark-red",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Dark Red"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56951,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804/variations/1806"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1805,
+        "date_created": "2018-12-13T07:39:38",
+        "date_created_gmt": "2018-12-13T07:39:38",
+        "date_modified": "2018-12-13T07:39:42",
+        "date_modified_gmt": "2018-12-13T07:39:42",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/jersey-polo-neck-top/?attribute_pa_color=white",
+        "sku": "Jersey-polo-neck-top-white",
+        "price": "20",
+        "regular_price": "20",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 298,
+            "date_created": "2018-12-11T08:24:56",
+            "date_created_gmt": "2018-12-11T08:24:56",
+            "date_modified": "2018-12-11T08:24:56",
+            "date_modified_gmt": "2018-12-11T08:24:56",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/jersey-polo-neck-top-white.jpeg",
+            "name": "jersey-polo-neck-top-white",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "White"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 56945,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804/variations/1805"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1804"
+                }
+            ]
+        }
+    }
+]

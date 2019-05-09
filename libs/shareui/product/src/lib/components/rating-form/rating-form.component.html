@@ -1,0 +1,63 @@
+<div class="review-form">
+  <form [formGroup]="reviewForm" (ngSubmit)="submit()" novalidate>
+    <div class="stars-wrapper">
+      <div class="stars">
+        <ion-button *ngFor="let rate of rates" fill="clear" (click)="rating(rate)">
+          <ion-icon slot="icon-only" name="star" [color]="rate <= currentRating ? 'secondary' : 'medium'"></ion-icon>
+        </ion-button>
+      </div>
+      <div class="validation-errors">
+        <ng-container *ngFor="let validation of validation_messages.rating">
+          <div class="error-message" *ngIf="reviewForm.get('rating').hasError(validation.type) && (reviewForm.get('rating').dirty || reviewForm.get('rating').touched)">
+            {{ validation.message }}
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">
+          Full Name
+        </ion-label>
+        <ion-input formControlName="fullname" required type="text" readonly></ion-input>
+      </ion-item>
+      <div class="validation-errors">
+        <ng-container *ngFor="let validation of validation_messages.fullname">
+          <div class="error-message" *ngIf="reviewForm.get('fullname').hasError(validation.type) && (reviewForm.get('fullname').dirty || reviewForm.get('fullname').touched)">
+            {{ validation.message }}
+          </div>
+        </ng-container>
+      </div>
+      <ion-item>
+        <ion-label position="floating">
+          Email
+        </ion-label>
+        <ion-input formControlName="email" required type="email" readonly></ion-input>
+      </ion-item>
+      <div class="validation-errors">
+        <ng-container *ngFor="let validation of validation_messages.email">
+          <div class="error-message" *ngIf="reviewForm.get('email').hasError(validation.type) && (reviewForm.get('email').dirty || reviewForm.get('email').touched)">
+            {{ validation.message }}
+          </div>
+        </ng-container>
+      </div>
+      <ion-item>
+        <ion-label position="floating">
+          Comment
+        </ion-label>
+        <ion-textarea formControlName="comment" required type="text"></ion-textarea>
+      </ion-item>
+      <div class="validation-errors">
+        <ng-container *ngFor="let validation of validation_messages.comment">
+          <div class="error-message" *ngIf="reviewForm.get('comment').hasError(validation.type) && (reviewForm.get('comment').dirty || reviewForm.get('comment').touched)">
+            {{ validation.message }}
+          </div>
+        </ng-container>
+      </div>
+    </ion-list>
+
+    <div class="save-action">
+      <ion-button type="submit" expand="full" fill="solid" [disabled]="!reviewForm.valid">Submit</ion-button>
+    </div>
+  </form>
+</div>

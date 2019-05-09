@@ -1,0 +1,26 @@
+ion-content {
+  --background: var(--ion-color-primary);
+}
+
+.menu-wrapper {
+  padding-top: 30px;
+  --background: var(--ion-color-primary);
+
+  ion-list {
+    margin-top: -5px;
+    padding-top: 0;
+    margin-bottom: 0;
+    background: var(--ion-color-primary);
+  }
+
+  .item {
+    --background: var(--ion-color-primary);
+    --ion-item-border-color: transparent;
+    font-size: 0.88rem;
+    color: var(--ion-color-primary-contrast);
+  }
+
+  .item.current {
+    font-weight: 600;
+  }
+}

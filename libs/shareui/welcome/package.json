@@ -1,0 +1,19 @@
+{
+  "name": "shareui-address",
+  "version": "1.0.0",
+  "author": "quanganh@aiti.com.vn",
+  "homepage": "https://xmobe.com",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@ionic/angular": "^4.0.0-rc.0"
+  },
+  "description": "xMobe Share UI"
+}

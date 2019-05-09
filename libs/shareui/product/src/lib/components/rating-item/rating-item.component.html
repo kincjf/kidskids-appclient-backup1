@@ -1,0 +1,15 @@
+<ion-item>
+  <ion-avatar slot="start">
+    <img [src]="avatar">
+  </ion-avatar>
+  <ion-label>
+    <h3>{{review.reviewer}}</h3>
+    <div class="stars-wrapper">
+      <div class="stars">
+        <ion-icon *ngFor="let star of getStars" name="star" [color]="star === 1 ? 'secondary' : 'light'"></ion-icon>
+      </div>
+      <div class="date">{{review.date_created_gmt | date: 'dd MMM yy'}}</div>
+    </div>
+    <div class="review-detail" [innerHTML]="review.review"></div>
+  </ion-label>
+</ion-item>

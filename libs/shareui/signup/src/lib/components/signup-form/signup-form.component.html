@@ -1,0 +1,78 @@
+<ion-list class="signup-form">
+  <form [formGroup]="signupForm">
+    <ion-item>
+      <ion-label position="floating">
+        Full Name
+      </ion-label>
+      <ion-input formControlName="fullname" required type="text" autofocus></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">
+        Email
+      </ion-label>
+      <ion-input formControlName="email" required type="email"></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.email">
+        <div class="error-message" *ngIf="signupForm.get('email').hasError(validation.type) && (signupForm.get('email').dirty || signupForm.get('email').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+    <ion-item>
+      <ion-label position="floating">
+        Phone
+      </ion-label>
+      <ion-input formControlName="phone" required type="tel"></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.phone">
+        <div class="error-message" *ngIf="signupForm.get('phone').hasError(validation.type) && (signupForm.get('phone').dirty || signupForm.get('phone').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
+    <div [formGroup]="matchingPasswordForm">
+      <ion-item>
+        <ion-label position="floating">
+          Password
+        </ion-label>
+        <ion-input formControlName="password" required type="password"></ion-input>
+      </ion-item>
+      <div class="validation-errors">
+        <ng-container *ngFor="let validation of validation_messages.password">
+          <div class="error-message" *ngIf="matchingPasswordForm.get('password').hasError(validation.type) && (matchingPasswordForm.get('password').dirty || matchingPasswordForm.get('password').touched)">
+            {{ validation.message }}
+          </div>
+        </ng-container>
+      </div>
+      <ion-item>
+        <ion-label position="floating">
+          Confirm Password
+        </ion-label>
+        <ion-input formControlName="confirm_password" required type="password"></ion-input>
+      </ion-item>
+      <div class="validation-errors">
+        <ng-container *ngFor="let validation of validation_messages.confirm_password">
+          <div class="error-message" *ngIf="matchingPasswordForm.get('confirm_password').hasError(validation.type) && (matchingPasswordForm.get('confirm_password').dirty || matchingPasswordForm.get('confirm_password').touched)">
+            {{ validation.message }}
+          </div>
+        </ng-container>
+      </div>
+      <div class="error-message" *ngIf="matchingPasswordForm.errors?.samePassword && (matchingPasswordForm.get('confirm_password').dirty || matchingPasswordForm.get('confirm_password').touched)">
+        Password not match.
+      </div>
+      <div *ngIf="errorMessage" class="validation-errors">
+        <div class="error-message" [innerHTML]="errorMessage.message">
+        </div>
+      </div>
+    </div>
+  </form>
+</ion-list>
+<div class="actions">
+  <ion-button shape="round" expand="full" fill="solid" (click)="submit()" [disabled]="pending">Submit</ion-button>
+</div>
+
+<div class="has-account">
+  <ion-button size="small" fill="clear" color="medium" (click)="goSignin()">Have account? Signin here</ion-button>
+</div>

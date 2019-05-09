@@ -1,0 +1,184 @@
+{
+  "npmScope": "ecom9",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "ecom9": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "ecom9-e2e": {
+      "tags": []
+    },
+    "ecom9woo": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "ecom9woo-e2e": {
+      "tags": []
+    },
+    "ecom9shopify": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "ecom9shopify-e2e": {
+      "tags": []
+    },
+    "woomodels": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "woocommerce": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "shopify": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "shareui-welcome": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-signup": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-login": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-forgot": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "models": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "shareui-cart": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-checkout": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-orders": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-order": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-product": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-product-box": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-products": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-products-hoz": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-items": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-address": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-profile": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-categories": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shopifymodels": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "nobackend": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "shareui-menu": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-categories-hoz": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "utils": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "shareui-social": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-country": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "shareui-currency": {
+      "tags": [
+        "xui"
+      ]
+    },
+    "ecom9woox": {
+      "tags": [
+        "ecom9"
+      ]
+    },
+    "ecom9woox-e2e": {
+      "tags": []
+    }
+  }
+}

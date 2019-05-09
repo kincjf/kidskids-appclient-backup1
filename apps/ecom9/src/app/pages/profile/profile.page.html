@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-buttons slot="start">
+        <ion-back-button text="" defaultHref="/settings"></ion-back-button>
+      </ion-buttons>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content> 
+  <xui-profile [profile]="profile$ | async" (edit)="onEdit()" (selectAddress)="onSelectAddress($event)"></xui-profile>
+</ion-content>

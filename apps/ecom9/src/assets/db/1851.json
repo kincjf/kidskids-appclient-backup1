@@ -1,0 +1,334 @@
+[
+    {
+        "id": 1855,
+        "date_created": "2018-12-13T07:39:58",
+        "date_created_gmt": "2018-12-13T07:39:58",
+        "date_modified": "2018-12-13T07:40:02",
+        "date_modified_gmt": "2018-12-13T07:40:02",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/scarf/?attribute_pa_color=red",
+        "sku": "Scarf-Red",
+        "price": "15",
+        "regular_price": "15",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 407,
+            "date_created": "2018-12-11T13:53:16",
+            "date_created_gmt": "2018-12-11T13:53:16",
+            "date_modified": "2018-12-11T13:53:16",
+            "date_modified_gmt": "2018-12-11T13:53:16",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/scarf-red-01.jpeg",
+            "name": "scarf-red-01",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Red"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 58302,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851/variations/1855"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1854,
+        "date_created": "2018-12-13T07:39:57",
+        "date_created_gmt": "2018-12-13T07:39:57",
+        "date_modified": "2018-12-13T07:40:02",
+        "date_modified_gmt": "2018-12-13T07:40:02",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/scarf/?attribute_pa_color=light-grey-marl",
+        "sku": "Scarf-Light-grey-marl",
+        "price": "15",
+        "regular_price": "15",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 404,
+            "date_created": "2018-12-11T13:53:14",
+            "date_created_gmt": "2018-12-11T13:53:14",
+            "date_modified": "2018-12-11T13:53:14",
+            "date_modified_gmt": "2018-12-11T13:53:14",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/scarf-light-grey-marl-01.jpeg",
+            "name": "scarf-light-grey-marl-01",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Light grey marl"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 58297,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851/variations/1854"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1853,
+        "date_created": "2018-12-13T07:39:57",
+        "date_created_gmt": "2018-12-13T07:39:57",
+        "date_modified": "2018-12-13T07:40:02",
+        "date_modified_gmt": "2018-12-13T07:40:02",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/scarf/?attribute_pa_color=black",
+        "sku": "Scarf-Black",
+        "price": "15",
+        "regular_price": "15",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 400,
+            "date_created": "2018-12-11T13:53:11",
+            "date_created_gmt": "2018-12-11T13:53:11",
+            "date_modified": "2018-12-11T13:53:11",
+            "date_modified_gmt": "2018-12-11T13:53:11",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/scarf-black-01.jpeg",
+            "name": "scarf-black-01",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Black"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 58292,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851/variations/1853"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1852,
+        "date_created": "2018-12-13T07:39:57",
+        "date_created_gmt": "2018-12-13T07:39:57",
+        "date_modified": "2018-12-13T07:40:01",
+        "date_modified_gmt": "2018-12-13T07:40:01",
+        "description": "",
+        "permalink": "https://woodemo.aiti.com.vn/product/scarf/?attribute_pa_color=dark-powder-pink",
+        "sku": "Scarf-Dark-powder-pink",
+        "price": "15",
+        "regular_price": "15",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "status": "publish",
+        "purchasable": true,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "stock_status": "instock",
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_class": "",
+        "shipping_class_id": 0,
+        "image": {
+            "id": 402,
+            "date_created": "2018-12-11T13:53:12",
+            "date_created_gmt": "2018-12-11T13:53:12",
+            "date_modified": "2018-12-11T13:53:12",
+            "date_modified_gmt": "2018-12-11T13:53:12",
+            "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/scarf-dark-powder-pink-01.jpeg",
+            "name": "scarf-dark-powder-pink-01",
+            "alt": ""
+        },
+        "attributes": [
+            {
+                "id": 1,
+                "name": "Color",
+                "option": "Dark powder pink"
+            }
+        ],
+        "menu_order": 0,
+        "meta_data": [
+            {
+                "id": 58287,
+                "key": "_wpcom_is_markdown",
+                "value": ""
+            }
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851/variations/1852"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851/variations"
+                }
+            ],
+            "up": [
+                {
+                    "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1851"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,73 @@
+[{
+  "id": 1927,
+  "date_created": "2018-12-13T07:40:40",
+  "date_created_gmt": "2018-12-13T07:40:40",
+  "date_modified": "2018-12-13T07:40:44",
+  "date_modified_gmt": "2018-12-13T07:40:44",
+  "description": "",
+  "permalink": "https://woodemo.aiti.com.vn/product/pyjama-bottoms/?attribute_pa_color=dark-grey-marl",
+  "sku": "Pyjama-bottoms-dark-grey-marl",
+  "price": "20",
+  "regular_price": "20",
+  "sale_price": "",
+  "date_on_sale_from": null,
+  "date_on_sale_from_gmt": null,
+  "date_on_sale_to": null,
+  "date_on_sale_to_gmt": null,
+  "on_sale": false,
+  "status": "publish",
+  "purchasable": true,
+  "virtual": false,
+  "downloadable": false,
+  "downloads": [],
+  "download_limit": 0,
+  "download_expiry": 0,
+  "tax_status": "taxable",
+  "tax_class": "",
+  "manage_stock": false,
+  "stock_quantity": null,
+  "stock_status": "instock",
+  "backorders": "no",
+  "backorders_allowed": false,
+  "backordered": false,
+  "weight": "",
+  "dimensions": {
+    "length": "",
+    "width": "",
+    "height": ""
+  },
+  "shipping_class": "",
+  "shipping_class_id": 0,
+  "image": {
+    "id": 648,
+    "date_created": "2018-12-12T06:30:53",
+    "date_created_gmt": "2018-12-12T06:30:53",
+    "date_modified": "2018-12-12T06:30:53",
+    "date_modified_gmt": "2018-12-12T06:30:53",
+    "src": "https://woodemo.aiti.com.vn/wp-content/uploads/2018/12/pyjama-bottoms-dark-grey-marl-01.jpeg",
+    "name": "pyjama-bottoms-dark-grey-marl-01",
+    "alt": ""
+  },
+  "attributes": [{
+    "id": 1,
+    "name": "Color",
+    "option": "Dark grey marl"
+  }],
+  "menu_order": 0,
+  "meta_data": [{
+    "id": 61901,
+    "key": "_wpcom_is_markdown",
+    "value": ""
+  }],
+  "_links": {
+    "self": [{
+      "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1926/variations/1927"
+    }],
+    "collection": [{
+      "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1926/variations"
+    }],
+    "up": [{
+      "href": "https://woodemo.aiti.com.vn/wp-json/wc/v3/products/1926"
+    }]
+  }
+}]

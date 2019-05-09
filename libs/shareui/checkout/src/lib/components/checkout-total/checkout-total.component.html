@@ -1,0 +1,14 @@
+<div class="checkout-total-wrapper">
+  <div class="total-wrapper">
+    <div class="title">
+      Total:
+    </div>
+    <div *ngIf="currency" class="price">
+      <span class="money"[innerHTML]="currency.symbol"></span>&nbsp;{{(total | number: '1.0-2')}}
+    </div>
+  </div>
+
+  <div class="action-wrapper">
+    <ion-button color="primary" expand="full" (click)="placeOrder()">Place Order</ion-button>
+  </div>
+</div>

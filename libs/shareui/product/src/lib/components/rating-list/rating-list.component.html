@@ -1,0 +1,7 @@
+<ion-list *ngIf="reviews">
+  <xui-rating-item *ngFor="let review of reviews" [review]="review"></xui-rating-item>
+</ion-list>
+<xui-rating-form *ngIf="isReviewed" [customer]="customer" (review)="onReview($event)"></xui-rating-form>
+<div class="not-login" *ngIf="!customer && reviews.length === 0">
+  Please login and be the 1st comment
+</div>

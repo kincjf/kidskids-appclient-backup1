@@ -1,0 +1,41 @@
+.signup-form {
+  ion-input {
+    border-bottom: 1px solid var(--ion-color-medium-tint);
+  }
+
+  ion-input:focus {
+    color: var(--ion-color-primary);
+  }
+
+
+  .item {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    --ion-item-border-color: transparent;
+    --padding-start: 0;
+    --inner-padding-end: 0;
+  }
+
+  .item-inner {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+.actions {
+  margin-top: 30px;
+}
+
+.has-account {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  ion-button {
+    font-size: 0.88rem;
+  }
+}

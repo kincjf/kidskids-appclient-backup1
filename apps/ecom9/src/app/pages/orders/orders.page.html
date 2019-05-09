@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button>
+        <img class="menu-button" src="../../../assets/imgs/menu.png">
+      </ion-menu-button>
+    </ion-buttons>
+    <ion-title>Orders</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <xui-orders [orders]="orders$ | async" [currency]="currency$ | async" (select)="onSelect($event)"></xui-orders>
+</ion-content>

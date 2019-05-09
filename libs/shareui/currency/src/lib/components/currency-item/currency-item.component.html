@@ -1,0 +1,6 @@
+<ion-item *ngIf="currency" button (click)="selectCurrency()">
+  <ion-label>
+    <h3 [innerHTML]="currency.name"></h3>
+  </ion-label>
+  <h3 slot="end" [innerHTML]="currency.symbol"></h3>
+</ion-item>

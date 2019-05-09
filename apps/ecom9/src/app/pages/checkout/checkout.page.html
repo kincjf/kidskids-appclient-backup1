@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" defaultHref="/cart"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Checkout</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="(proccessingOrder$ | async)" class="thank-wrapper">
+    <div class="thank">
+      Thanks for your order<br>
+      Please wait while we processing your order
+    </div>
+    <div class="processing">
+      <ion-spinner name="lines"></ion-spinner>
+    </div>
+  </div>
+
+  <xui-address *ngIf="!(proccessingOrder$ | async)" [address]="selectAddress$ | async" [total]="totalAddress$ | async" (add)="addNewAddress()" (change)="changeAddress()"></xui-address>
+
+  <div *ngIf="!(proccessingOrder$ | async)" class="order">
+    <ion-item>
+      <ion-label>
+        <h2>Order</h2>
+      </ion-label>
+    </ion-item>
+
+    <xui-item-list [products]="(cartProducts$ | async)" [currency]="currency$ | async" (delete)="onDelete($event)"
+      (increment)="onIncrement($event)" (decrement)="onDecrement($event)" (clickItem)="goProduct($event)"></xui-item-list>
+  </div>
+
+  <xui-payment-list *ngIf="!(proccessingOrder$ | async)" [payments]="payments" (changePayment)="changePaymentMethod($event)"></xui-payment-list>
+</ion-content>
+<ion-footer *ngIf="!(proccessingOrder$ | async)" no-border>
+  <xui-checkout-total [total]="total$ | async" [currency]="currency$ | async" (order)="placeOrder()"></xui-checkout-total>
+</ion-footer>
