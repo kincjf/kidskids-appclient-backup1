@@ -21,3 +21,6 @@ json DB
 
 - E:\KidsKids\ecom9pack-2019-01-06\__\pack\ecom9pack\apps\ecom9\src\app\store\product\reducers\index.ts
 필터 알고리즘 기입
+
+android 배포용 apk 참고
+https://devkimgoon.tistory.com/18

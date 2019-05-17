@@ -182,6 +182,16 @@ export class AppComponent {
               });
           });
       }, 1000);
+
+      var notificationOpenedCallback = function(jsonData) {
+        console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+      };
+  
+      window["plugins"].OneSignal
+        .startInit("683a3fc3-e6a0-4917-9d7b-26957950d715", "740280202027")
+        .handleNotificationOpened(notificationOpenedCallback)
+        .endInit();
+        
     });
   }
 
