@@ -1,15 +1,19 @@
 <ion-header>
-  <ion-toolbar>
+  <!-- <ion-toolbar>
     <ion-buttons slot="start">
       <ion-menu-button>
         <img class="menu-button" src="../../../assets/imgs/menu.png">
       </ion-menu-button>
     </ion-buttons>
     <ion-title>Hot Deals</ion-title>
-  </ion-toolbar>
+  </ion-toolbar> -->
 </ion-header>
 
 <ion-content class="hotdeal">
+
+  <div class="serach-bar-wrapper">
+    <ion-searchbar placeholder ="상품검색" animated color = "light" type = "serach"></ion-searchbar>
+  </div>
   <div class="ads-slider">
     <div class="ads-wrapper">
       <a (click)="goCategory()">

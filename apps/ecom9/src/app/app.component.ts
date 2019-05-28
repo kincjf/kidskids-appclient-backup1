@@ -187,10 +187,10 @@ export class AppComponent {
         console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
       };
   
-      window["plugins"].OneSignal
-        .startInit("683a3fc3-e6a0-4917-9d7b-26957950d715", "740280202027")
-        .handleNotificationOpened(notificationOpenedCallback)
-        .endInit();
+      // window["plugins"].OneSignal
+      //   .startInit("683a3fc3-e6a0-4917-9d7b-26957950d715", "740280202027")
+      //   .handleNotificationOpened(notificationOpenedCallback)
+      //   .endInit();
         
     });
   }
@@ -243,7 +243,7 @@ export class AppComponent {
 
     if (this.router.url.indexOf('home') < 0) {
       setTimeout(() => {
-        this.navCtrl.navigateRoot('home');
+        this.navCtrl.navigateRoot('tabs');
       }, 150);
     }
   }

@@ -2,8 +2,9 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: './pages/home/home.module#HomePageModule' },
+ // { path: '', redirectTo: 'tabs', pathMatch: 'full' },
+ { path: '', loadChildren: './pages/tabs/tabs.module#TabsPageModule' },
+   { path: 'home', loadChildren: './pages/home/home.module#HomePageModule' },
   { path: 'login', loadChildren: './pages/login/login.module#LoginPageModule' },
   { path: 'signup', loadChildren: './pages/signup/signup.module#SignupPageModule' },
   { path: 'cart', loadChildren: './pages/cart/cart.module#CartPageModule' },
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'countries', loadChildren: './pages/countries/countries.module#CountriesPageModule' },
   { path: 'currencies', loadChildren: './pages/currencies/currencies.module#CurrenciesPageModule' },
   { path: 'ratings', loadChildren: './pages/ratings/ratings.module#RatingsPageModule' },
+  { path: 'tabs', loadChildren: './pages/tabs/tabs.module#TabsPageModule'},
 ];
 
 @NgModule({

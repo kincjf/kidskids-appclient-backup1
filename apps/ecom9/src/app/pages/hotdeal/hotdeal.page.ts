@@ -29,7 +29,7 @@ export class HotDealPage implements OnInit {
       if (cats) {
         const categories = cats.filter(category => category.parent !== 0);
         const rnd = Math.floor(Math.random() * (categories.length - 1));
-        this.navCtrl.navigateRoot('home');
+        this.navCtrl.navigateRoot('tabs');
         setTimeout(() => {
           this.store.dispatch(new fromProduct.categoryActions.SelectCategory({ id: categories[rnd].id }));
         }, 200);
