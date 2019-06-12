@@ -6,6 +6,8 @@ import * as fromProduct from '../../store/product';
 import { Observable } from 'rxjs';
 import { Category, Product, Currency } from '@ecom9/models';
 import { NavController } from '@ionic/angular';
+import { Router } from '@angular/router';
+import { componentPage } from '../componentPage/componentPage.page';
 
 @Component({
   selector: 'ecom9-home',
@@ -17,7 +19,7 @@ export class HomePage implements OnInit {
   selectedCategory$: Observable<Category>;
   selectId$: Observable<number>;
   categoriesLoading$: Observable<boolean>;
-
+  categoryName$: Observable<string>;
   products$: Observable<Product[]>;
   isLoading$: Observable<boolean>;
   error$: Observable<any>;
@@ -29,6 +31,7 @@ export class HomePage implements OnInit {
   constructor(
     private store: Store<fromStore.State>,
     private navCtrl: NavController,
+    private router: Router
   ) {
     this.categories$ = this.store.select(fromProduct.productState.getAllCategories);
     this.categoriesLoading$ = this.store.select(fromProduct.productState.getCategoriesIsLoading);
@@ -55,11 +58,13 @@ export class HomePage implements OnInit {
   // categories 
   onSelectCategory(id: number) {
     this.store.dispatch(new fromProduct.categoryActions.SelectCategory({ id: id }));
+    this.navCtrl.navigateForward('componentPage');
   }
 
   onSelectProduct(product: Product) {
     this.store.dispatch(new fromProduct.productActions.SelectProduct({ id: product.id }));
     this.navCtrl.navigateForward(`/product/${product.id}`);
+    
   }
 
   onCart() {

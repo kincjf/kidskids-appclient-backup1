@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef, OnChanges } from '@angular/core';
 import { Category } from '@ecom9/models';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'xui-category-list-hoz',
@@ -12,10 +13,12 @@ export class CategoryListHozComponent implements OnInit, OnChanges {
   @Input() loading: boolean;
   @Input() error: any;
   @Input() showImage: boolean = true;
-  @Input() showParent: boolean = false;
+  @Input() showParent: boolean = true;
 
   @Output() select = new EventEmitter<number>();
-  constructor() { }
+  constructor(
+    private navCtrl: NavController
+  ) { }
 
   ngOnInit() {
   }
