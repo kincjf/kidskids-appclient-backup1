@@ -1,8 +1,8 @@
-E:\KidsKids\ecom9pack-2019-01-06\__\pack\ecom9pack
+ï»¿E:\KidsKids\ecom9pack-2019-01-06\__\pack\ecom9pack
 ionic serve
 
-lib - ÄÄÆ÷³ÍÆ® À§Ä¡
-models - ÄÁÅÙÃ÷ ³»¿ë / ¾Æ¸¶µµ?
+lib - ì»´í¬ë„ŒíŠ¸ ìœ„ì¹˜
+models - ì»¨í…ì¸  ë‚´ìš© / ì•„ë§ˆë„?
 
 - root
 
@@ -11,16 +11,16 @@ models - ÄÁÅÙÃ÷ ³»¿ë / ¾Æ¸¶µµ?
 - xui-product-list
 
 - xui-product-item
-°³º° itemBox ³»¿ë
+ê°œë³„ itemBox ë‚´ìš©
 
 - tsconfig.json
-°¢Á¾ path¼³Á¤
+ê°ì¢… pathì„¤ì •
 
 - E:\KidsKids\ecom9pack-2019-01-06\__\pack\ecom9pack\apps\ecom9\src\assets\db
 json DB
 
 - E:\KidsKids\ecom9pack-2019-01-06\__\pack\ecom9pack\apps\ecom9\src\app\store\product\reducers\index.ts
-ÇÊÅÍ ¾Ë°í¸®Áò ±âÀÔ
+í•„í„° ì•Œê³ ë¦¬ì¦˜ ê¸°ì…
 
-android ¹èÆ÷¿ë apk Âü°í
+android ë°°í¬ìš© apk ì°¸ê³ 
 https://devkimgoon.tistory.com/18
