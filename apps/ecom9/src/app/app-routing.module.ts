@@ -23,7 +23,8 @@ const routes: Routes = [
   { path: 'currencies', loadChildren: './pages/currencies/currencies.module#CurrenciesPageModule' },
   { path: 'ratings', loadChildren: './pages/ratings/ratings.module#RatingsPageModule' },
   { path: 'tabs', loadChildren: './pages/tabs/tabs.module#TabsPageModule'},
-  { path: 'componentPage', loadChildren: './pages/componentPage/componentPage.module#componentPageModule'}
+  { path: 'componentPage', loadChildren: './pages/componentPage/componentPage.module#componentPageModule'},
+  { path: 'filter', loadChildren: './pages/filter/filter.module#FilterPageModule'}
 ];
 
 @NgModule({

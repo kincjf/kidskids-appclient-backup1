@@ -42,6 +42,7 @@ export class HomePage implements OnInit {
 
     this.cartTotal$ = this.store.select(fromCart.cartState.getCartItemsCount);
     this.currency$ = this.store.select(fromCart.cartState.getCurrentCurrency);
+    //this.categoryName$ = this.store.select(fromProduct.productState.getSelectedCategory);
   }
 
   ngOnInit() {

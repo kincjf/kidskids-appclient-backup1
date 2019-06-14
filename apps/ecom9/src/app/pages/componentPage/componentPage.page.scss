@@ -1,1 +1,9 @@
 
+.products-header {
+    ion-searchbar {
+        height: 40px;
+        ion-toolbar:last-child {
+            --border-width: 0;
+        }
+    }
+}

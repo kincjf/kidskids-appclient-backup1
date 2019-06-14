@@ -65,4 +65,13 @@ export class componentPage implements OnInit {
   onCart() {
     this.navCtrl.navigateForward('/cart');
   }
+
+  dismiss() {
+    this.navCtrl.back();
+  }
+
+  openfilter() {
+    this.navCtrl.navigateForward('filter');
+  }
+
 }

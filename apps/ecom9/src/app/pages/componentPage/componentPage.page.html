@@ -1,8 +1,28 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>상품 리스트</ion-title>
+<!-- <ion-header mode='ios'>
+  <ion-toolbar >
+    <ion-title>상품리스트</ion-title>
+    <ion-buttons slot="end">
+	    <ion-button (click)="dismiss()">
+	        <ion-icon slot="end" name="md-close" style="font-size: 20px;"></ion-icon>
+	    </ion-button>
+	</ion-buttons>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-header mode='ios' class="products-header">
+  <ion-toolbar >
+    <ion-title>상품리스트</ion-title>
+  
+    <ion-buttons slot="start">
+        <ion-button (click)="dismiss()">
+            <ion-icon slot="end" name="md-close" style="font-size: 20px;"></ion-icon>
+        </ion-button>      
+    </ion-buttons>
+    
+    <ion-buttons slot="end" (click)="openfilter()"><ion-icon name="funnel" style="margin: 0 8px;font-size: 23px"></ion-icon></ion-buttons>
   </ion-toolbar>
 </ion-header>
+
 
 <ion-content>
   <!-- <xui-category-list-hoz [showImage]="false" [categories]="categories$ | async" [selectId]="selectId$ | async"
